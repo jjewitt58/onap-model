@@ -351,31 +351,56 @@ NOTE 2: 	There may be multiple data sources (each identified as monitoredInfo) p
           <type xmi:type="uml:DataType" href="Common.uml#_P-qXMD2vEeiu6I5JfRTxxQ"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_jBZXYD2mEeiu6I5JfRTxxQ" name="_nsdf" type="_13gdcDzEEeiWMf5FLWfdLA" aggregation="composite" association="_jA8rcD2mEeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_a9SiQEPhEeiVGPeZpaYNtQ" annotatedElement="_jBZXYD2mEeiu6I5JfRTxxQ">
+            <body>Identifies a DF within the scope of an NSD.</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jBdBwD2mEeiu6I5JfRTxxQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jBdo0D2mEeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_qMMUsD2nEeiu6I5JfRTxxQ" name="_sapd" type="_45TagDzEEeiWMf5FLWfdLA" aggregation="composite" association="_qMJ4cD2nEeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_NtSEwEPhEeiVGPeZpaYNtQ" annotatedElement="_qMMUsD2nEeiu6I5JfRTxxQ">
+            <body>Provides the descriptor of a SAP of the NS.</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qMOJ4D2nEeiu6I5JfRTxxQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qMOw8D2nEeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_Wi5kcj2oEeiu6I5JfRTxxQ" name="_vnffgd" type="_13ZIsDzEEeiWMf5FLWfdLA" aggregation="composite" association="_Wi3vQD2oEeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_WFbbcEPhEeiVGPeZpaYNtQ" annotatedElement="_Wi5kcj2oEeiu6I5JfRTxxQ">
+            <body>Provides the descriptors of the applicable forwarding graphs.&#xD;
+Cardinality of 0 means that the NS is a NF set with unspecified connectivity.&#xD;
+</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Wi7ZoD2oEeiu6I5JfRTxxQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Wi8AsD2oEeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_YX8Ikj2qEeiu6I5JfRTxxQ" name="_nsVirtualLinkdesc" type="_13WFYDzEEeiWMf5FLWfdLA" aggregation="composite" association="_YX6TYD2qEeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_SK3qYEPhEeiVGPeZpaYNtQ" annotatedElement="_YX8Ikj2qEeiu6I5JfRTxxQ">
+            <body>Provides the constituent VLDs.&#xD;
+Cardinality of 0 means that the NS is a NF set with unspecified connectivity.&#xD;
+</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YX99wD2qEeiu6I5JfRTxxQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YX99wT2qEeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_JDB-oj2rEeiu6I5JfRTxxQ" name="_vnfd" aggregation="shared" association="_JDAwgD2rEeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_FG3BgEPhEeiVGPeZpaYNtQ" annotatedElement="_JDB-oj2rEeiu6I5JfRTxxQ">
+            <body>References the VNFD of a constituent VNF.</body>
+          </ownedComment>
           <type xmi:type="uml:Class" href="Vnf.uml#_aaEZADOREeiHat9KcP8uWA"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JDDz0D2rEeiu6I5JfRTxxQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JDDz0T2rEeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_wdAOoD2rEeiu6I5JfRTxxQ" name="_pnfd" type="_13TCEDzEEeiWMf5FLWfdLA" aggregation="shared" association="_wc9LUD2rEeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_JkKTQEPhEeiVGPeZpaYNtQ" annotatedElement="_wdAOoD2rEeiu6I5JfRTxxQ">
+            <body>References the PNFD of a constituent PNF.</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wdCD0D2rEeiu6I5JfRTxxQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wdCD0T2rEeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_yX0DkD2tEeiu6I5JfRTxxQ" name="_nsd" type="_13KfMDzEEeiWMf5FLWfdLA" aggregation="shared" association="_yXyOYD2tEeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_BJJ10EPhEeiVGPeZpaYNtQ" annotatedElement="_yX0DkD2tEeiu6I5JfRTxxQ">
+            <body>References the NSD of a constituent nested NS.</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yX1RsD2tEeiu6I5JfRTxxQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yX14wD2tEeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
@@ -491,10 +516,21 @@ NOTE 2:	The presence of a VNFD or PNFD identifier in a VNFFGD does not imply tha
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_13ZIxzzEEeiWMf5FLWfdLA" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_0PyOoT2pEeiu6I5JfRTxxQ" name="_nsVirtualLinkDesc" type="_13WFYDzEEeiWMf5FLWfdLA" aggregation="shared" association="_0PwZcD2pEeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_8WDdwEPhEeiVGPeZpaYNtQ" annotatedElement="_0PyOoT2pEeiu6I5JfRTxxQ">
+            <body>References the VLD of a constituent VL.&#xD;
+NOTE: The presence of a VLD identifier in a VNFFGD does not imply that all connection points of the VLs instantiated using this VL are connected to the VNFFG instantiated using the VNFFGD.&#xD;
+</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0P0D0D2pEeiu6I5JfRTxxQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0P0D0T2pEeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_DTJ1QT2sEeiu6I5JfRTxxQ" name="_pnfd" type="_13TCEDzEEeiWMf5FLWfdLA" aggregation="shared" association="_DTInID2sEeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_Aiu5kEPiEeiVGPeZpaYNtQ" annotatedElement="_DTJ1QT2sEeiu6I5JfRTxxQ">
+            <body>References the PNFD of a constituent PNF.&#xD;
+NOTE 1 :  The list of constituent VNFs, PNFs, and nested NS SAPs of a VNFFG can be identical to the list of constituent VNFs, PNFs and nested NSs of the parent NSD, or can be a subset of it.&#xD;
+NOTE 2: The presence of a VNFD or PNFD identifier in a VNFFGD does not imply that all connection points instantiated from all embedded CPDs are connected to the VNFFG instantiated using the VNFFGD.&#xD;
+</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DTLDYD2sEeiu6I5JfRTxxQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DTLDYT2sEeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
@@ -547,27 +583,49 @@ NOTE:	Every VNF, VL and nested NS whose descriptor is referenced by the NS DF sh
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_qpO1AD2yEeiu6I5JfRTxxQ" name="_nsLevel" type="_GYs-4DzFEeiWMf5FLWfdLA" aggregation="composite" association="_qpMYwD2yEeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_RadEoEPiEeiVGPeZpaYNtQ" annotatedElement="_qpO1AD2yEeiu6I5JfRTxxQ">
+            <body>Identifies the NS level which represents the default NS instantiation level for this DF.&#xD;
+It shall be present if there are multiple &quot;nsInstantiationLevel&quot; entries.&#xD;
+</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qpQDID2yEeiu6I5JfRTxxQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qpQqMD2yEeiu6I5JfRTxxQ" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_-83tUj2yEeiu6I5JfRTxxQ" name="_nsLevel" type="_GYs-4DzFEeiWMf5FLWfdLA" aggregation="composite" association="_-82fMD2yEeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_VsHHEEPiEeiVGPeZpaYNtQ" annotatedElement="_-83tUj2yEeiu6I5JfRTxxQ">
+            <body>Describes the details of an NS level.&#xD;
+NOTE: Every VNF, VL and nested NS whose descriptor is referenced by the NS DF shall be involved in an NS instantiation level of the parent NS. If no instances of a given VNF/nested NS have to be deployed at NS instantiation time, the numberOfInstances attribute in the corresponding VnfToLevelMapping/NsToLevelMapping datatype shall be set to 0.&#xD;
+</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-847cD2yEeiu6I5JfRTxxQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-85igD2yEeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_actGkj2zEeiu6I5JfRTxxQ" name="_affinityOrAntiAffinitygroup" aggregation="composite" association="_acr4cD2zEeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_cByPsEPiEeiVGPeZpaYNtQ" annotatedElement="_actGkj2zEeiu6I5JfRTxxQ">
+            <body>Specifies affinity or anti-affinity relationship applicable between the VNF instances created using different VNFDs, the Virtual Link instances created using different NsVirtualLinkDescs or the nested NS instances created using different NSDs in the same affinity or anti-affinity group.</body>
+          </ownedComment>
           <type xmi:type="uml:Class" href="Vnf.uml#_0AbUYDnBEeiWMf5FLWfdLA"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_acvi0D2zEeiu6I5JfRTxxQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_acwJ4D2zEeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="__KZ9kD2zEeiu6I5JfRTxxQ" name="_nsScalingAspect" type="_GYmRMDzFEeiWMf5FLWfdLA" aggregation="composite" association="__KYIYD2zEeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_e9QiUEPiEeiVGPeZpaYNtQ" annotatedElement="__KZ9kD2zEeiu6I5JfRTxxQ">
+            <body>The scaling aspects supported by this DF of the NS.</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__KbLsD2zEeiu6I5JfRTxxQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="__KbywD2zEeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_hPo9gD20Eeiu6I5JfRTxxQ" name="_pnfProfile" type="_GYYOwDzFEeiWMf5FLWfdLA" aggregation="composite" association="_hPmhQD20Eeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_igKoYEPiEeiVGPeZpaYNtQ" annotatedElement="_hPo9gD20Eeiu6I5JfRTxxQ">
+            <body>PNF profile to be used for the NS flavour.</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hQ5hwD20Eeiu6I5JfRTxxQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hQ5hwT20Eeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_VJhq0j21Eeiu6I5JfRTxxQ" name="_nsProfile" type="_GY8PcDzFEeiWMf5FLWfdLA" aggregation="composite" association="_VJf1oD21Eeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_oZrZcEPiEeiVGPeZpaYNtQ" annotatedElement="_VJhq0j21Eeiu6I5JfRTxxQ">
+            <body>Specifies a NS Profile supported by this NS DF.</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VJjgAD21Eeiu6I5JfRTxxQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VJkHED21Eeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
@@ -674,11 +732,17 @@ NOTE: Each identifier references an affinity or anti-affinity group which expres
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_45XE_jzEEeiWMf5FLWfdLA" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_DquKQD24Eeiu6I5JfRTxxQ" name="_vnfDf " association="_DqruAD24Eeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_QWJ5kEPjEeiVGPeZpaYNtQ" annotatedElement="_DquKQD24Eeiu6I5JfRTxxQ">
+            <body>Identifies a flavour within the VNFD.</body>
+          </ownedComment>
           <type xmi:type="uml:Class" href="Vnf.uml#_p0UVsDQvEeixv_sLOod4lQ"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DqvYYD24Eeiu6I5JfRTxxQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Dqv_cD24Eeiu6I5JfRTxxQ" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_zlIC4j27Eeiu6I5JfRTxxQ" name="_vnfd" association="_zlG0wD27Eeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_V6cokEPjEeiVGPeZpaYNtQ" annotatedElement="_zlIC4j27Eeiu6I5JfRTxxQ">
+            <body>Reference to the VNFD.</body>
+          </ownedComment>
           <type xmi:type="uml:Class" href="Vnf.uml#_aaEZADOREeiHat9KcP8uWA"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zlJRAD27Eeiu6I5JfRTxxQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zlJ4ED27Eeiu6I5JfRTxxQ" value="1"/>
@@ -731,6 +795,9 @@ NOTE: 	These attributes are used to control scaling boundaries.</body>
           <type xmi:type="uml:DataType" href="Common.uml#_nPNHsD2-Eeiu6I5JfRTxxQ"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_PAQXwj27Eeiu6I5JfRTxxQ" name="_nsVirtualLinkDesc" type="_13WFYDzEEeiWMf5FLWfdLA" association="_PAOikD27Eeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_pFTMgEPmEeiVGPeZpaYNtQ" annotatedElement="_PAQXwj27Eeiu6I5JfRTxxQ">
+            <body>Uniquely references a VLD.</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PASM8D27Eeiu6I5JfRTxxQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PASM8T27Eeiu6I5JfRTxxQ" value="1"/>
         </ownedAttribute>
@@ -743,7 +810,7 @@ NOTE: 	These attributes are used to control scaling boundaries.</body>
           <ownedComment xmi:type="uml:Comment" xmi:id="_kEZB-TzEEeiWMf5FLWfdLA" annotatedElement="_kEZB-DzEEeiWMf5FLWfdLA">
             <body>Identifier of this CpdPool class. It identifies a pool of descriptors of connection points and NS SAPs.</body>
           </ownedComment>
-          <type xmi:type="uml:PrimitiveType" href="../NfvInformationModel/NfvModel.uml#_ijP2UEDOEeW6nNR00wt2vw"/>
+          <type xmi:type="uml:DataType" href="Common.uml#_AuYtcDkBEeiWMf5FLWfdLA"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_GYYOwDzFEeiWMf5FLWfdLA" name="PnfProfile">
@@ -790,6 +857,11 @@ Scaling by a single step does not imply that exactly one instance of each entity
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_fGNK0D2_Eeiu6I5JfRTxxQ" name="_nsLevel" type="_GYs-4DzFEeiWMf5FLWfdLA" association="_fGKukD2_Eeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_AKltEEPnEeiVGPeZpaYNtQ" annotatedElement="_fGNK0D2_Eeiu6I5JfRTxxQ">
+            <body>Describes the details of an NS level.&#xD;
+NOTE:  Only a subset of the VNFs, VLs and nested NSs whose descriptor is referenced by the NS DF may be involved in an NS scale level of the parent NS.&#xD;
+</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fGPAAD2_Eeiu6I5JfRTxxQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fGPAAT2_Eeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
@@ -870,14 +942,23 @@ NS levels may be used in the context of NS scaling and in this case they are ref
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GY8PgDzFEeiWMf5FLWfdLA" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_r-GO0T21Eeiu6I5JfRTxxQ" name="_nsdf" type="_13gdcDzEEeiWMf5FLWfdLA" association="_r-EZoD21Eeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_Tf8_QEPnEeiVGPeZpaYNtQ" annotatedElement="_r-GO0T21Eeiu6I5JfRTxxQ">
+            <body>Identifies the applicable NS DF within the scope of the NSD.</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_r-rdoD21Eeiu6I5JfRTxxQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_r-0AgD21Eeiu6I5JfRTxxQ" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_LJFEIj22Eeiu6I5JfRTxxQ" name="_nsLevel" type="_GYs-4DzFEeiWMf5FLWfdLA" association="_LJD2AD22Eeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_Xlc1AEPnEeiVGPeZpaYNtQ" annotatedElement="_LJFEIj22Eeiu6I5JfRTxxQ">
+            <body>Identifies the NS level within the referenced NS DF to be used in the context of the parent NS instantiation. If not present, the default NS instantiation level as declared in the referenced NSD shall be used.</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LJMY4D22Eeiu6I5JfRTxxQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LJVi0D22Eeiu6I5JfRTxxQ" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_PKixoj26Eeiu6I5JfRTxxQ" name="_nsd" type="_13KfMDzEEeiWMf5FLWfdLA" association="_PKhjgD26Eeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_b9yHMEPnEeiVGPeZpaYNtQ" annotatedElement="_PKixoj26Eeiu6I5JfRTxxQ">
+            <body>Identifies the NSD applicable to NS instantiated according to this profile.</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PK2ToD26Eeiu6I5JfRTxxQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PK26sD26Eeiu6I5JfRTxxQ" value="1"/>
         </ownedAttribute>
@@ -887,8 +968,8 @@ NS levels may be used in the context of NS scaling and in this case they are ref
           <body>A PnfExtCpd is a type of Cpd and describes the characteristics of an external interface, a.k.a external CP, where to connect the PNF to a VL. &#xD;
 A PnfExtCpd inherits from the Cpd Class.</body>
         </ownedComment>
-        <generalization xmi:type="uml:Generalization" xmi:id="_bd53AjzFEeiWMf5FLWfdLA">
-          <general xmi:type="uml:Class" href="../NfvInformationModel/NfvModel.uml#_RzYd-pHCEeWkU9xzYCztUg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_wyByMEPnEeiVGPeZpaYNtQ">
+          <general xmi:type="uml:Class" href="Vnf.uml#_7pUNEDa7EeivvI-m1BaAbA"/>
         </generalization>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_bd_WkDzFEeiWMf5FLWfdLA" name="NsOrVnfProfile" isAbstract="true">
@@ -901,10 +982,20 @@ A PnfExtCpd inherits from the Cpd Class.</body>
           <body>The Dependencies class provides indications on the order in which VNFs associated to different VNF Profiles and/or nested NSs associated to different NS Profiles are to be instantiated.</body>
         </ownedComment>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_IhnyUT25Eeiu6I5JfRTxxQ" name="_primaryProfileReference" type="_bd_WkDzFEeiWMf5FLWfdLA" association="_Ihl9ID25Eeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_PgqCsEPoEeiVGPeZpaYNtQ" annotatedElement="_IhnyUT25Eeiu6I5JfRTxxQ">
+            <body>References a VnfProfile or NsProfile.&#xD;
+NOTE:  NFV Management and Orchestration functions shall instantiate VNFs from the VnfProfile and/or nested NSs from the NsProfile referenced in the primary attribute before instantiating VNFs from the VnfProfile and/or nested NSs from the NsProfile referenced in the secondary attribute.&#xD;
+</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IhqOkD25Eeiu6I5JfRTxxQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IhqOkT25Eeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_g9ay0T25Eeiu6I5JfRTxxQ" name="_secondaryProfileReference" type="_bd_WkDzFEeiWMf5FLWfdLA" association="_g9Y9oD25Eeiu6I5JfRTxxQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_ThCH4EPoEeiVGPeZpaYNtQ" annotatedElement="_g9ay0T25Eeiu6I5JfRTxxQ">
+            <body>References a VnfProfile or NsProfile.&#xD;
+NOTE:  NFV Management and Orchestration functions shall instantiate VNFs from the VnfProfile and/or nested NSs from the NsProfile referenced in the primary attribute before instantiating VNFs from the VnfProfile and/or nested NSs from the NsProfile referenced in the secondary attribute&#xD;
+</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g9cA8D25Eeiu6I5JfRTxxQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g9coAD25Eeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
