@@ -281,14 +281,57 @@
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_fGPAAj2_Eeiu6I5JfRTxxQ" name="_nsScalingAspect" type="_GYmRMDzFEeiWMf5FLWfdLA" association="_fGKukD2_Eeiu6I5JfRTxxQ"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_y4VdsESzEeiVGPeZpaYNtQ" name="NsiUsesVirtualLink" memberEnd="_y4vGUUSzEeiVGPeZpaYNtQ _y5QDsESzEeiVGPeZpaYNtQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y4l8YESzEeiVGPeZpaYNtQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_y4vGUESzEeiVGPeZpaYNtQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_y5QDsESzEeiVGPeZpaYNtQ" name="_nsi" type="_1WWbsDzFEeiWMf5FLWfdLA" association="_y4VdsESzEeiVGPeZpaYNtQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_fHipMESyEeiVGPeZpaYNtQ" name="NsiIncludesNf" memberEnd="_fJyE4ESyEeiVGPeZpaYNtQ _fK1NwESyEeiVGPeZpaYNtQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fJSVoESyEeiVGPeZpaYNtQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fJXOIESyEeiVGPeZpaYNtQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_fK1NwESyEeiVGPeZpaYNtQ" name="_nsi" type="_1WWbsDzFEeiWMf5FLWfdLA" association="_fHipMESyEeiVGPeZpaYNtQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sTP1gESyEeiVGPeZpaYNtQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sTfGEESyEeiVGPeZpaYNtQ" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_MCJ6cES3EeiVGPeZpaYNtQ" name="NsiExposesSap" memberEnd="_MCMWsES3EeiVGPeZpaYNtQ _MCPaAES3EeiVGPeZpaYNtQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MCLvoES3EeiVGPeZpaYNtQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MCLvoUS3EeiVGPeZpaYNtQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_MCPaAES3EeiVGPeZpaYNtQ" name="_nsi" type="_1WWbsDzFEeiWMf5FLWfdLA" association="_MCJ6cES3EeiVGPeZpaYNtQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_zG_A4ES3EeiVGPeZpaYNtQ" name="NsiHasNestedNsi" memberEnd="_zHBdIUS3EeiVGPeZpaYNtQ _zHpvQES3EeiVGPeZpaYNtQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zHA2EES3EeiVGPeZpaYNtQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zHBdIES3EeiVGPeZpaYNtQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_zHpvQES3EeiVGPeZpaYNtQ" name="_nsi" type="_1WWbsDzFEeiWMf5FLWfdLA" association="_zG_A4ES3EeiVGPeZpaYNtQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ebf1oES4EeiVGPeZpaYNtQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_EisCwES4EeiVGPeZpaYNtQ" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_bm_E0ES4EeiVGPeZpaYNtQ" name="NsiUsesVnffg" memberEnd="_bnAS8kS4EeiVGPeZpaYNtQ _bnHAoES4EeiVGPeZpaYNtQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bnAS8ES4EeiVGPeZpaYNtQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bnAS8US4EeiVGPeZpaYNtQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_bnHAoES4EeiVGPeZpaYNtQ" name="_nsi" type="_1WWbsDzFEeiWMf5FLWfdLA" association="_bm_E0ES4EeiVGPeZpaYNtQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_AeHIIES6EeiVGPeZpaYNtQ" name="PnfExposesExtCp" memberEnd="_Aes-AUS6EeiVGPeZpaYNtQ _AfWeQES6EeiVGPeZpaYNtQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Aej0EES6EeiVGPeZpaYNtQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Aes-AES6EeiVGPeZpaYNtQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_AfWeQES6EeiVGPeZpaYNtQ" name="_pnf" type="_6GSVkDzFEeiWMf5FLWfdLA" association="_AeHIIES6EeiVGPeZpaYNtQ"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_fXNM8DOHEei5Af8DcjrhIQ" name="Diagrams"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_fXNM8TOHEei5Af8DcjrhIQ" name="Interfaces"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_fXN0ADOHEei5Af8DcjrhIQ" name="ObjectClasses">
-      <packagedElement xmi:type="uml:Class" xmi:id="_13KfMDzEEeiWMf5FLWfdLA" name="Nsd">
+      <packagedElement xmi:type="uml:Class" xmi:id="_13KfMDzEEeiWMf5FLWfdLA" name="NetworkServiceDescriptor">
         <ownedComment xmi:type="uml:Comment" xmi:id="_13KfMTzEEeiWMf5FLWfdLA" annotatedElement="_13KfMDzEEeiWMf5FLWfdLA">
           <body>The NSD class is a deployment template whose instances are used by the NFVO for the lifecycle management of NSs.</body>
         </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_3kqmwESvEeiVGPeZpaYNtQ" general="_7SrB0D0VEeiWMf5FLWfdLA"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_13KfMjzEEeiWMf5FLWfdLA" name="nsdIdentifier">
           <ownedComment xmi:type="uml:Comment" xmi:id="_13KfMzzEEeiWMf5FLWfdLA" annotatedElement="_13KfMjzEEeiWMf5FLWfdLA">
             <body>Identifier of this NSD class. It globally uniquely identifies an instance of the NSD</body>
@@ -1000,16 +1043,17 @@ NOTE:  NFV Management and Orchestration functions shall instantiate VNFs from th
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g9coAD25Eeiu6I5JfRTxxQ" value="*"/>
         </ownedAttribute>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_1WWbsDzFEeiWMf5FLWfdLA" name="NetworkService">
+      <packagedElement xmi:type="uml:Class" xmi:id="_1WWbsDzFEeiWMf5FLWfdLA" name="NetworkServiceInstance">
         <ownedComment xmi:type="uml:Comment" xmi:id="_1WWbsTzFEeiWMf5FLWfdLA" annotatedElement="_1WWbsDzFEeiWMf5FLWfdLA">
           <body>A composition of Network Functions and defined by its functional and behavioural specification. &#xD;
 NOTE: The Network Service (NS) contributes to the behaviour of the higher layer service, which is characterized by at least performance, dependability, and security specifications. The end-to-end network service behaviour is the result of the combination of the individual network function behaviours as well as the behaviours of the network infrastructure composition mechanism.</body>
         </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_XMtykESwEeiVGPeZpaYNtQ" general="_FOKTMD0ZEeiWMf5FLWfdLA"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_1WWbsjzFEeiWMf5FLWfdLA" name="nsInstanceId">
           <ownedComment xmi:type="uml:Comment" xmi:id="_1WWbszzFEeiWMf5FLWfdLA" annotatedElement="_1WWbsjzFEeiWMf5FLWfdLA">
             <body>Identifier of this NetworkService, identifying the NS instance.</body>
           </ownedComment>
-          <type xmi:type="uml:PrimitiveType" href="../NfvInformationModel/NfvModel.uml#_ijP2UEDOEeW6nNR00wt2vw"/>
+          <type xmi:type="uml:DataType" href="Common.uml#_AuYtcDkBEeiWMf5FLWfdLA"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_1WWbtDzFEeiWMf5FLWfdLA" name="nsName">
           <ownedComment xmi:type="uml:Comment" xmi:id="_1WWbtTzFEeiWMf5FLWfdLA" annotatedElement="_1WWbtDzFEeiWMf5FLWfdLA">
@@ -1023,51 +1067,53 @@ NOTE: The Network Service (NS) contributes to the behaviour of the higher layer 
           </ownedComment>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1WWbuDzFEeiWMf5FLWfdLA" name="nf" aggregation="shared">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_1WWbuTzFEeiWMf5FLWfdLA" annotatedElement="_1WWbuDzFEeiWMf5FLWfdLA">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_fJyE4ESyEeiVGPeZpaYNtQ" name="_nf" aggregation="shared" association="_fHipMESyEeiVGPeZpaYNtQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_m4JFcES3EeiVGPeZpaYNtQ" annotatedElement="_fJyE4ESyEeiVGPeZpaYNtQ">
             <body>Reference to consistituent VNFs and PNFs on this NS.&#xD;
-NOTE: Cardinality of zero is only valid for a non-instantiated NS.</body>
+NOTE: Cardinality of zero is only valid for a non-instantiated NS.&#xD;
+</body>
           </ownedComment>
-          <type xmi:type="uml:Class" href="../NfvInformationModel/NfvModel.uml#_ab2ZVIPEEeWwYYWsl-GrVw"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1WWbujzFEeiWMf5FLWfdLA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1WWbuzzFEeiWMf5FLWfdLA" value="*"/>
+          <type xmi:type="uml:Class" href="Common.uml#_VtzSoESyEeiVGPeZpaYNtQ"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fKR0IESyEeiVGPeZpaYNtQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fKf2kESyEeiVGPeZpaYNtQ" value="*"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1WWbvDzFEeiWMf5FLWfdLA" name="nsVirtuaLlink" aggregation="composite">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_1WWbvTzFEeiWMf5FLWfdLA" annotatedElement="_1WWbvDzFEeiWMf5FLWfdLA">
-            <body>Information on the VLs of this NS. &#xD;
-NOTE: Cardinality of zero is only valid for a non-instantiated NS.</body>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_y4vGUUSzEeiVGPeZpaYNtQ" name="_nsVirtualLink" type="_6GPSQDzFEeiWMf5FLWfdLA" aggregation="composite" association="_y4VdsESzEeiVGPeZpaYNtQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_q9a4wES3EeiVGPeZpaYNtQ" annotatedElement="_y4vGUUSzEeiVGPeZpaYNtQ">
+            <body>Information on the VLs of this NS.&#xD;
+NOTE: Cardinality of zero is only valid for a non-instantiated NS.&#xD;
+</body>
           </ownedComment>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1WWbvjzFEeiWMf5FLWfdLA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1WWbvzzFEeiWMf5FLWfdLA" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y4-98ESzEeiVGPeZpaYNtQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y5PcoESzEeiVGPeZpaYNtQ" value="*"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1WWbwDzFEeiWMf5FLWfdLA" name="vnffg" type="_1WdwcDzFEeiWMf5FLWfdLA" aggregation="composite">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_1WWbwTzFEeiWMf5FLWfdLA" annotatedElement="_1WWbwDzFEeiWMf5FLWfdLA">
-            <body>Information on the VNFFGs of this NS.</body>
-          </ownedComment>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1WWbwjzFEeiWMf5FLWfdLA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1WWbwzzFEeiWMf5FLWfdLA" value="*"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1WWbxDzFEeiWMf5FLWfdLA" name="sap" type="_1Wb7QDzFEeiWMf5FLWfdLA" aggregation="composite">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_1WWbxTzFEeiWMf5FLWfdLA" annotatedElement="_1WWbxDzFEeiWMf5FLWfdLA">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_MCMWsES3EeiVGPeZpaYNtQ" name="_sap" type="_1Wb7QDzFEeiWMf5FLWfdLA" aggregation="composite" association="_MCJ6cES3EeiVGPeZpaYNtQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_ucMswES3EeiVGPeZpaYNtQ" annotatedElement="_MCMWsES3EeiVGPeZpaYNtQ">
             <body>Information on the SAPs of this NS.</body>
           </ownedComment>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1WWbxjzFEeiWMf5FLWfdLA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1WWbxzzFEeiWMf5FLWfdLA" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MCOL4ES3EeiVGPeZpaYNtQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MCOy8ES3EeiVGPeZpaYNtQ" value="*"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_1WXCwDzFEeiWMf5FLWfdLA" name="nestedNs" type="_1WWbsDzFEeiWMf5FLWfdLA" aggregation="shared">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_1WXCwTzFEeiWMf5FLWfdLA" annotatedElement="_1WXCwDzFEeiWMf5FLWfdLA">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_zHBdIUS3EeiVGPeZpaYNtQ" name="_nestedNsi" type="_1WWbsDzFEeiWMf5FLWfdLA" aggregation="shared" association="_zG_A4ES3EeiVGPeZpaYNtQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_MWzfUES4EeiVGPeZpaYNtQ" annotatedElement="_zHBdIUS3EeiVGPeZpaYNtQ">
             <body>Reference to information on nested NSs of this NS.</body>
           </ownedComment>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1WXCwjzFEeiWMf5FLWfdLA"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1WXCwzzFEeiWMf5FLWfdLA" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zHTJ8ES3EeiVGPeZpaYNtQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zHeJEES3EeiVGPeZpaYNtQ" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_bnAS8kS4EeiVGPeZpaYNtQ" name="_vnffg" type="_1WdwcDzFEeiWMf5FLWfdLA" aggregation="composite" association="_bm_E0ES4EeiVGPeZpaYNtQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_zppMkES4EeiVGPeZpaYNtQ" annotatedElement="_bnAS8kS4EeiVGPeZpaYNtQ">
+            <body>Information on the VNFFGs of this NS.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bnGZkES4EeiVGPeZpaYNtQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bnGZkUS4EeiVGPeZpaYNtQ" value="*"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_1Wb7QDzFEeiWMf5FLWfdLA" name="Sap">
         <ownedComment xmi:type="uml:Comment" xmi:id="_1Wb7QTzFEeiWMf5FLWfdLA" annotatedElement="_1Wb7QDzFEeiWMf5FLWfdLA">
           <body>Provides information on a Service Access Point (SAP) of a NS</body>
         </ownedComment>
-        <generalization xmi:type="uml:Generalization" xmi:id="_1Wb7QjzFEeiWMf5FLWfdLA">
-          <general xmi:type="uml:Class" href="../NfvInformationModel/NfvModel.uml#_2T5FQIkaEeW19aRC6Vd4Hg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_B4dtoES3EeiVGPeZpaYNtQ">
+          <general xmi:type="uml:Class" href="Common.uml#_8naVoES0EeiVGPeZpaYNtQ"/>
         </generalization>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_1WdwcDzFEeiWMf5FLWfdLA" name="Vnffg">
@@ -1117,8 +1163,8 @@ NOTE: It indicates an exhaustive list of all the CP instances and SAP instances 
         <ownedComment xmi:type="uml:Comment" xmi:id="_6GPSQTzFEeiWMf5FLWfdLA" annotatedElement="_6GPSQDzFEeiWMf5FLWfdLA">
           <body>This class provides run-time information about an NS VL instance.</body>
         </ownedComment>
-        <generalization xmi:type="uml:Generalization" xmi:id="_6GPSQjzFEeiWMf5FLWfdLA">
-          <general xmi:type="uml:Class" href="../NfvInformationModel/NfvModel.uml#_Tx_0N4kZEeW19aRC6Vd4Hg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_kqYp4ES2EeiVGPeZpaYNtQ">
+          <general xmi:type="uml:Class" href="Common.uml#_Tw5PIES0EeiVGPeZpaYNtQ"/>
         </generalization>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_6GPSQzzFEeiWMf5FLWfdLA" name="virtualNetwork">
           <ownedComment xmi:type="uml:Comment" xmi:id="_6GPSRDzFEeiWMf5FLWfdLA" annotatedElement="_6GPSQzzFEeiWMf5FLWfdLA">
@@ -1133,23 +1179,23 @@ NOTE: It indicates an exhaustive list of all the CP instances and SAP instances 
         <ownedComment xmi:type="uml:Comment" xmi:id="_6GSVkTzFEeiWMf5FLWfdLA" annotatedElement="_6GSVkDzFEeiWMf5FLWfdLA">
           <body>An implementation of a NF via a tightly coupled software and hardware system.</body>
         </ownedComment>
-        <generalization xmi:type="uml:Generalization" xmi:id="_6GSVkjzFEeiWMf5FLWfdLA">
-          <general xmi:type="uml:Class" href="../NfvInformationModel/NfvModel.uml#_ab2ZVIPEEeWwYYWsl-GrVw"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_8IrdIESyEeiVGPeZpaYNtQ">
+          <general xmi:type="uml:Class" href="Common.uml#_VtzSoESyEeiVGPeZpaYNtQ"/>
         </generalization>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_6GSVkzzFEeiWMf5FLWfdLA" name="pnfExternalCp" type="_6GUx0DzFEeiWMf5FLWfdLA" aggregation="composite">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_6GSVlDzFEeiWMf5FLWfdLA" annotatedElement="_6GSVkzzFEeiWMf5FLWfdLA">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Aes-AUS6EeiVGPeZpaYNtQ" name="_pnfExtCp" type="_6GUx0DzFEeiWMf5FLWfdLA" aggregation="composite" association="_AeHIIES6EeiVGPeZpaYNtQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_X-iFgES6EeiVGPeZpaYNtQ" annotatedElement="_Aes-AUS6EeiVGPeZpaYNtQ">
             <body>External CP of the PNF.</body>
           </ownedComment>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6GSVlTzFEeiWMf5FLWfdLA" value="1"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6GSVljzFEeiWMf5FLWfdLA" value="*"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_AfVQIES6EeiVGPeZpaYNtQ" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AfV3MES6EeiVGPeZpaYNtQ" value="*"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_6GUx0DzFEeiWMf5FLWfdLA" name="PnfExtCp">
         <ownedComment xmi:type="uml:Comment" xmi:id="_6GUx0TzFEeiWMf5FLWfdLA" annotatedElement="_6GUx0DzFEeiWMf5FLWfdLA">
           <body>External CP of the PNF.</body>
         </ownedComment>
-        <generalization xmi:type="uml:Generalization" xmi:id="_6GUx0jzFEeiWMf5FLWfdLA">
-          <general xmi:type="uml:Class" href="../NfvInformationModel/NfvModel.uml#_2T5FQIkaEeW19aRC6Vd4Hg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_0tWP0ES5EeiVGPeZpaYNtQ">
+          <general xmi:type="uml:Class" href="Common.uml#_8naVoES0EeiVGPeZpaYNtQ"/>
         </generalization>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_6GUx0zzFEeiWMf5FLWfdLA" name="cpd">
           <ownedComment xmi:type="uml:Comment" xmi:id="_6GUx1DzFEeiWMf5FLWfdLA" annotatedElement="_6GUx0zzFEeiWMf5FLWfdLA">
@@ -1712,11 +1758,6 @@ NOTE 2:	A minimum set of external stimulus includes: the receipt of request mess
   <OpenModel_Profile:OpenModelAttribute xmi:id="_1WYQ4DzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WWbsjzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_1WY38DzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WWbtDzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_1WY38TzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WWbtjzFEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_1WY38jzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WWbuDzFEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_1WY38zzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WWbvDzFEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_1WY39DzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WWbwDzFEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_1WY39TzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WWbxDzFEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_1WY39jzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WXCwDzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_1Wb7QzzFEeiWMf5FLWfdLA" base_Class="_1Wb7QDzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_1WeXiTzFEeiWMf5FLWfdLA" base_Class="_1WdwcDzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_1WeXijzFEeiWMf5FLWfdLA" base_StructuralFeature="_1WdwcjzFEeiWMf5FLWfdLA"/>
@@ -1727,7 +1768,6 @@ NOTE 2:	A minimum set of external stimulus includes: the receipt of request mess
   <OpenModel_Profile:OpenModelClass xmi:id="_6GP5UDzFEeiWMf5FLWfdLA" base_Class="_6GPSQDzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_6GQgYDzFEeiWMf5FLWfdLA" base_StructuralFeature="_6GPSQzzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_6GS8oDzFEeiWMf5FLWfdLA" base_Class="_6GSVkDzFEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_6GS8oTzFEeiWMf5FLWfdLA" base_StructuralFeature="_6GSVkzzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_6GUx1TzFEeiWMf5FLWfdLA" base_Class="_6GUx0DzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_6GVY4DzFEeiWMf5FLWfdLA" base_StructuralFeature="_6GUx0zzFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_BJM-sDzGEeiWMf5FLWfdLA" base_Class="_BJMXoDzGEeiWMf5FLWfdLA"/>
@@ -1890,7 +1930,7 @@ NOTE 2:	A minimum set of external stimulus includes: the receipt of request mess
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_UFzUNJEeizArvcUMcZaw" base_Property="_1VYDED28Eeiu6I5JfRTxxQ"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_UFzkNJEeizArvcUMcZaw" base_Property="_HbTGoD29Eeiu6I5JfRTxxQ"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_UFz0NJEeizArvcUMcZaw" base_Property="_fGPAAj2_Eeiu6I5JfRTxxQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_m_UF0ENJEeizArvcUMcZaw" base_Class="_13KfMDzEEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_m_UF0ENJEeizArvcUMcZaw" state="CLEAN" base_Class="_13KfMDzEEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_UF0UNJEeizArvcUMcZaw" base_Property="_13KfMjzEEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_UF0kNJEeizArvcUMcZaw" base_Property="_13KfNDzEEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_UF00NJEeizArvcUMcZaw" base_Property="_13KfNjzEEeiWMf5FLWfdLA"/>
@@ -1903,9 +1943,9 @@ NOTE 2:	A minimum set of external stimulus includes: the receipt of request mess
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_UF2kNJEeizArvcUMcZaw" base_Property="_jBZXYD2mEeiu6I5JfRTxxQ"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_UF20NJEeizArvcUMcZaw" base_Property="_qMMUsD2nEeiu6I5JfRTxxQ"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_UF3ENJEeizArvcUMcZaw" base_Property="_Wi5kcj2oEeiu6I5JfRTxxQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_m_UF3UNJEeizArvcUMcZaw" base_Property="_YX8Ikj2qEeiu6I5JfRTxxQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_m_UF3kNJEeizArvcUMcZaw" base_Property="_JDB-oj2rEeiu6I5JfRTxxQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_m_UF30NJEeizArvcUMcZaw" base_Property="_wdAOoD2rEeiu6I5JfRTxxQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_m_UF3UNJEeizArvcUMcZaw" state="CLEAN" base_Property="_YX8Ikj2qEeiu6I5JfRTxxQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_m_UF3kNJEeizArvcUMcZaw" state="CLEAN" base_Property="_JDB-oj2rEeiu6I5JfRTxxQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_m_UF30NJEeizArvcUMcZaw" state="CLEAN" base_Property="_wdAOoD2rEeiu6I5JfRTxxQ"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_UF4ENJEeizArvcUMcZaw" base_Property="_yX0DkD2tEeiu6I5JfRTxxQ"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_UF4UNJEeizArvcUMcZaw" base_Class="_13TCEDzEEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_UF4kNJEeizArvcUMcZaw" base_Property="_13TCEjzEEeiWMf5FLWfdLA"/>
@@ -1993,15 +2033,10 @@ NOTE 2:	A minimum set of external stimulus includes: the receipt of request mess
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn1UNJEeizArvcUMcZaw" base_Class="_beE2IDzFEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn1kNJEeizArvcUMcZaw" base_Property="_IhnyUT25Eeiu6I5JfRTxxQ"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn10NJEeizArvcUMcZaw" base_Property="_g9ay0T25Eeiu6I5JfRTxxQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn2ENJEeizArvcUMcZaw" base_Class="_1WWbsDzFEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn2ENJEeizArvcUMcZaw" state="CLEAN" base_Class="_1WWbsDzFEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn2UNJEeizArvcUMcZaw" base_Property="_1WWbsjzFEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn2kNJEeizArvcUMcZaw" base_Property="_1WWbtDzFEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn20NJEeizArvcUMcZaw" base_Property="_1WWbtjzFEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn3ENJEeizArvcUMcZaw" base_Property="_1WWbuDzFEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn3UNJEeizArvcUMcZaw" base_Property="_1WWbvDzFEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn3kNJEeizArvcUMcZaw" base_Property="_1WWbwDzFEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn30NJEeizArvcUMcZaw" base_Property="_1WWbxDzFEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn4ENJEeizArvcUMcZaw" base_Property="_1WXCwDzFEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn4UNJEeizArvcUMcZaw" base_Class="_1Wb7QDzFEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn4kNJEeizArvcUMcZaw" base_Class="_1WdwcDzFEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn40NJEeizArvcUMcZaw" base_Property="_1WdwcjzFEeiWMf5FLWfdLA"/>
@@ -2012,7 +2047,6 @@ NOTE 2:	A minimum set of external stimulus includes: the receipt of request mess
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn6ENJEeizArvcUMcZaw" base_Class="_6GPSQDzFEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn6UNJEeizArvcUMcZaw" base_Property="_6GPSQzzFEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn6kNJEeizArvcUMcZaw" base_Class="_6GSVkDzFEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn60NJEeizArvcUMcZaw" base_Property="_6GSVkzzFEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn7ENJEeizArvcUMcZaw" base_Class="_6GUx0DzFEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn7UNJEeizArvcUMcZaw" base_Property="_6GUx0zzFEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_nn7kNJEeizArvcUMcZaw" base_Class="_BJMXoDzGEeiWMf5FLWfdLA"/>
@@ -2081,4 +2115,34 @@ NOTE 2:	A minimum set of external stimulus includes: the receipt of request mess
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_wx20NJEeizArvcUMcZaw" base_Property="_kEZo-zzEEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_wx3ENJEeizArvcUMcZaw" base_Property="_kEaPWDzEEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_wx3UNJEeizArvcUMcZaw" base_Property="_kEaPXDzEEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_fJ2WUESyEeiVGPeZpaYNtQ" base_Property="_fJyE4ESyEeiVGPeZpaYNtQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_fJ3kcESyEeiVGPeZpaYNtQ" base_StructuralFeature="_fJyE4ESyEeiVGPeZpaYNtQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_fK100ESyEeiVGPeZpaYNtQ" base_Property="_fK1NwESyEeiVGPeZpaYNtQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_fK100USyEeiVGPeZpaYNtQ" base_StructuralFeature="_fK1NwESyEeiVGPeZpaYNtQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_y4vtYESzEeiVGPeZpaYNtQ" base_Property="_y4vGUUSzEeiVGPeZpaYNtQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_y410AESzEeiVGPeZpaYNtQ" base_StructuralFeature="_y4vGUUSzEeiVGPeZpaYNtQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_y5QDsUSzEeiVGPeZpaYNtQ" base_Property="_y5QDsESzEeiVGPeZpaYNtQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_y5TuEESzEeiVGPeZpaYNtQ" base_StructuralFeature="_y5QDsESzEeiVGPeZpaYNtQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_MCMWsUS3EeiVGPeZpaYNtQ" base_Property="_MCMWsES3EeiVGPeZpaYNtQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_MCNk0ES3EeiVGPeZpaYNtQ" base_StructuralFeature="_MCMWsES3EeiVGPeZpaYNtQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_MCPaAUS3EeiVGPeZpaYNtQ" base_Property="_MCPaAES3EeiVGPeZpaYNtQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_MCQBEES3EeiVGPeZpaYNtQ" base_StructuralFeature="_MCPaAES3EeiVGPeZpaYNtQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_zHCEMES3EeiVGPeZpaYNtQ" base_Property="_zHBdIUS3EeiVGPeZpaYNtQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_zHCrQES3EeiVGPeZpaYNtQ" base_StructuralFeature="_zHBdIUS3EeiVGPeZpaYNtQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_zHqWUES3EeiVGPeZpaYNtQ" base_Property="_zHpvQES3EeiVGPeZpaYNtQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_zHqWUUS3EeiVGPeZpaYNtQ" base_StructuralFeature="_zHpvQES3EeiVGPeZpaYNtQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_bnA6AES4EeiVGPeZpaYNtQ" base_Property="_bnAS8kS4EeiVGPeZpaYNtQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_bnBhEES4EeiVGPeZpaYNtQ" base_StructuralFeature="_bnAS8kS4EeiVGPeZpaYNtQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_bnHAoUS4EeiVGPeZpaYNtQ" base_Property="_bnHAoES4EeiVGPeZpaYNtQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_bnHAokS4EeiVGPeZpaYNtQ" base_StructuralFeature="_bnHAoES4EeiVGPeZpaYNtQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_AetlEES6EeiVGPeZpaYNtQ" base_Property="_Aes-AUS6EeiVGPeZpaYNtQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_AeuMIES6EeiVGPeZpaYNtQ" base_StructuralFeature="_Aes-AUS6EeiVGPeZpaYNtQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_AfWeQUS6EeiVGPeZpaYNtQ" base_Property="_AfWeQES6EeiVGPeZpaYNtQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_AfWeQkS6EeiVGPeZpaYNtQ" base_StructuralFeature="_AfWeQES6EeiVGPeZpaYNtQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_8dhyIUS6EeiVGPeZpaYNtQ">
+    <base_Property xmi:type="uml:Property" href="Common.uml#_8dhyIES6EeiVGPeZpaYNtQ"/>
+  </Onap_Profile:OnapModelLifecycle>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_8diZMES6EeiVGPeZpaYNtQ">
+    <base_StructuralFeature xmi:type="uml:Property" href="Common.uml#_8dhyIES6EeiVGPeZpaYNtQ"/>
+  </OpenModel_Profile:OpenModelAttribute>
 </xmi:XMI>
