@@ -304,6 +304,12 @@ NOTE 2: virtualLinkProfile needs to be provided for all VLs that the CPs of the 
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Dd-6QD5yEeijbdkIlrq2uQ" value="*"/>
         </ownedEnd>
       </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_8cc0EES6EeiVGPeZpaYNtQ" name="VnfExposesExtCp" memberEnd="_8c1OkES6EeiVGPeZpaYNtQ _8dhyIES6EeiVGPeZpaYNtQ">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8csEoES6EeiVGPeZpaYNtQ" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8c0ngES6EeiVGPeZpaYNtQ" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_8dhyIES6EeiVGPeZpaYNtQ" name="_vnf" type="_Io3nQESzEeiVGPeZpaYNtQ" association="_8cc0EES6EeiVGPeZpaYNtQ"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MDOHEei5Af8DcjrhIQ" name="Diagrams">
       <ownedComment xmi:type="uml:Comment" xmi:id="_bphG0DTSEeiwQ6KPLHcy4g" annotatedElement="_zPN5MDOHEei5Af8DcjrhIQ">
@@ -1399,6 +1405,29 @@ VF Module is a method to implement a placement group, Missing relationship to VD
         <ownedAttribute xmi:type="uml:Property" xmi:id="_t6Z-wEJ8EeiwbqJBYHKltg" name="vnfcMembers"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_OB_4cDz6Eeiuk5pWzMOpfA" name="VirtualLinkBitRateLevel"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fMPCUES6EeiVGPeZpaYNtQ" name="VnfExtCp">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_sxbFoES6EeiVGPeZpaYNtQ" annotatedElement="_fMPCUES6EeiVGPeZpaYNtQ">
+          <body>Describes an external CP exposed by a VNF.</body>
+        </ownedComment>
+        <generalization xmi:type="uml:Generalization" xmi:id="_3Dbg8ES6EeiVGPeZpaYNtQ">
+          <general xmi:type="uml:Class" href="Common.uml#_8naVoES0EeiVGPeZpaYNtQ"/>
+        </generalization>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Io3nQESzEeiVGPeZpaYNtQ" name="Vnf">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_g9jTIESzEeiVGPeZpaYNtQ" annotatedElement="_Io3nQESzEeiVGPeZpaYNtQ">
+        <body>An implementation of an NF that can be deployed on a Network Function Virtualisation Infrastructure (NFVI).</body>
+      </ownedComment>
+      <generalization xmi:type="uml:Generalization" xmi:id="_WZrrwESzEeiVGPeZpaYNtQ">
+        <general xmi:type="uml:Class" href="Common.uml#_VtzSoESyEeiVGPeZpaYNtQ"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_8c1OkES6EeiVGPeZpaYNtQ" name="_vnfExtCp" type="_fMPCUES6EeiVGPeZpaYNtQ" aggregation="composite" association="_8cc0EES6EeiVGPeZpaYNtQ">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_djlNAES7EeiVGPeZpaYNtQ" annotatedElement="_8c1OkES6EeiVGPeZpaYNtQ">
+          <body>External CP of the VNF.</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8dJ-sES6EeiVGPeZpaYNtQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8dhLEES6EeiVGPeZpaYNtQ" value="*"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MzOHEei5Af8DcjrhIQ" name="TypeDefinitions">
       <packagedElement xmi:type="uml:DataType" xmi:id="_lp6e4DatEei23_xWdimG9w" name="LogicalNodeData ">
@@ -2304,7 +2333,7 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAETyUNJEeizArvcUMcZaw" base_Property="_345dADabEei23_xWdimG9w"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAETykNJEeizArvcUMcZaw" base_Property="_uwHosDadEei23_xWdimG9w"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAETy0NJEeizArvcUMcZaw" base_Property="_MxzowjagEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETzENJEeizArvcUMcZaw" base_Class="_aaEZADOREeiHat9KcP8uWA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETzENJEeizArvcUMcZaw" state="CLEAN" base_Class="_aaEZADOREeiHat9KcP8uWA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAETzUNJEeizArvcUMcZaw" base_Property="_Sz6jIDOVEeiHat9KcP8uWA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAETzkNJEeizArvcUMcZaw" base_Property="_hUYi8DOVEeiHat9KcP8uWA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAETz0NJEeizArvcUMcZaw" base_Property="_Psi3oDOXEeiHat9KcP8uWA"/>
