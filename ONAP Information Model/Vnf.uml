@@ -1475,6 +1475,7 @@ VF Module is a method to implement a placement group, Missing relationship to VD
           <general xmi:type="uml:Class" href="Common.uml#_8naVoES0EeiVGPeZpaYNtQ"/>
         </generalization>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_kgMGEEdpEeimoNQADLD_mg" name="Kevin"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Io3nQESzEeiVGPeZpaYNtQ" name="Vnf">
       <ownedComment xmi:type="uml:Comment" xmi:id="_g9jTIESzEeiVGPeZpaYNtQ" annotatedElement="_Io3nQESzEeiVGPeZpaYNtQ">
@@ -2594,4 +2595,5 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAgYtUNJEeizArvcUMcZaw" base_Property="_SHb8gDnIEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_4RtOwEcnEei7eo5RdnNiBQ" base_StructuralFeature="_4RsAoEcnEei7eo5RdnNiBQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_wHc4MUcpEei7eo5RdnNiBQ" base_StructuralFeature="_wHc4MEcpEei7eo5RdnNiBQ"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_kgMtIEdpEeimoNQADLD_mg" base_Class="_kgMGEEdpEeimoNQADLD_mg"/>
 </xmi:XMI>
