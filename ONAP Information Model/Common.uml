@@ -18,7 +18,7 @@ Note: the description of this class are different in ETSI GS NFV IFA 011 and ETS
           <ownedComment xmi:type="uml:Comment" xmi:id="_Tw79tT2pEeiu6I5JfRTxxQ" annotatedElement="_Tw79tD2pEeiu6I5JfRTxxQ">
             <body>Specifies the protocol exposed by a VL and the flow pattern supported by the VL.</body>
           </ownedComment>
-          <type xmi:type="uml:DataType" href="Vnf.uml#_ImxsgDeBEeiIfPeSAqyGdQ"/>
+          <type xmi:type="uml:DataType" href="model.uml#_ImxsgDeBEeiIfPeSAqyGdQ"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_Tw79tj2pEeiu6I5JfRTxxQ" name="testAccess">
           <ownedComment xmi:type="uml:Comment" xmi:id="_Tw79tz2pEeiu6I5JfRTxxQ" annotatedElement="_Tw79tj2pEeiu6I5JfRTxxQ">
@@ -181,13 +181,13 @@ NOTE: Cardinality of 0 corresponds to the case where the certificate is provided
             <body>Specifies whether the rule is an affinity rule or an anti-affinity rule.&#xD;
 </body>
           </ownedComment>
-          <type xmi:type="uml:Enumeration" href="Vnf.uml#_tMoywDnJEeiWMf5FLWfdLA"/>
+          <type xmi:type="uml:Enumeration" href="model.uml#_tMoywDnJEeiWMf5FLWfdLA"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_RVZi0z2-Eeiu6I5JfRTxxQ" name="scope">
           <ownedComment xmi:type="uml:Comment" xmi:id="_RVZi1D2-Eeiu6I5JfRTxxQ" annotatedElement="_RVZi0z2-Eeiu6I5JfRTxxQ">
             <body>Specifies the scope of the rule.</body>
           </ownedComment>
-          <type xmi:type="uml:Enumeration" href="Vnf.uml#_B3kJsDnKEeiWMf5FLWfdLA"/>
+          <type xmi:type="uml:Enumeration" href="model.uml#_B3kJsDnKEeiWMf5FLWfdLA"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:DataType" xmi:id="_nPNHsD2-Eeiu6I5JfRTxxQ" name="LinkBitrateRequirements">
