@@ -2056,18 +2056,18 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="OpenModel_Profile.profile.uml#_m1xqsHBgEd6FKu9XX1078A"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hIEW4EdtEei3KMAUV7YMMQ">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hIEW4UdtEei3KMAUV7YMMQ" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hIEW4kdtEei3KMAUV7YMMQ" key="Version" value="0.0.2"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hIEW40dtEei3KMAUV7YMMQ" key="Comment" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hIEW5EdtEei3KMAUV7YMMQ" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hIEW5UdtEei3KMAUV7YMMQ" key="Date" value="2018-04-18"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hIEW5kdtEei3KMAUV7YMMQ" key="Author" value=""/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_BxCuYEfVEeiroa_wbaonmQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BxCuYUfVEeiroa_wbaonmQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BxCuYkfVEeiroa_wbaonmQ" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BxCuY0fVEeiroa_wbaonmQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BxCuZEfVEeiroa_wbaonmQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BxCuZUfVEeiroa_wbaonmQ" key="Date" value="2018-04-18"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BxCuZkfVEeiroa_wbaonmQ" key="Author" value=""/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hIEW50dtEei3KMAUV7YMMQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BxCuZ0fVEeiroa_wbaonmQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="Onap_Profile.profile.uml#_gE-J0ENJEeizArvcUMcZaw"/>
       </eAnnotations>
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hIFlAEdtEei3KMAUV7YMMQ" source="duplicatedProfile"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BxEjkEfVEeiroa_wbaonmQ" source="duplicatedProfile"/>
       <appliedProfile xmi:type="uml:Profile" href="Onap_Profile.profile.uml#_a5YyYEMgEeisT-sjhttBCA"/>
     </profileApplication>
   </uml:Package>
@@ -2147,6 +2147,8 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_6i00NJEeizArvcUMcZaw" base_Property="_PJmu4jnHEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_8qIn4j5xEeijbdkIlrq2uQ" base_StructuralFeature="_8qIn4T5xEeijbdkIlrq2uQ"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_6i1kNJEeizArvcUMcZaw" base_Property="_8qIn4T5xEeijbdkIlrq2uQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_wi2p4EdtEei3KMAUV7YMMQ" base_Property="_8dhyIES6EeiVGPeZpaYNtQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_wjgxMEdtEei3KMAUV7YMMQ" base_StructuralFeature="_8dhyIES6EeiVGPeZpaYNtQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_KOSrIEJ9EeiwbqJBYHKltg" base_StructuralFeature="_KOSEEEJ9EeiwbqJBYHKltg"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_m_6i10NJEeizArvcUMcZaw" base_Property="_KOSEEEJ9EeiwbqJBYHKltg"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_KOYxwUJ9EeiwbqJBYHKltg" base_StructuralFeature="_KOYxwEJ9EeiwbqJBYHKltg"/>
@@ -2457,6 +2459,7 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <OpenModel_Profile:OpenModelAttribute xmi:id="_PJlgwDnHEeiWMf5FLWfdLA" base_StructuralFeature="_PJk5sjnHEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOwUNJEeizArvcUMcZaw" base_Property="_PJk5sjnHEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_4RtOwEcnEei7eo5RdnNiBQ" base_StructuralFeature="_4RsAoEcnEei7eo5RdnNiBQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_wjx28EdtEei3KMAUV7YMMQ" base_Property="_4RsAoEcnEei7eo5RdnNiBQ"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_0Ab7cDnBEeiWMf5FLWfdLA" base_Class="_0AbUYDnBEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOwkNJEeizArvcUMcZaw" base_Class="_0AbUYDnBEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_6g1tYjnBEeiWMf5FLWfdLA" base_StructuralFeature="_6g1tYDnBEeiWMf5FLWfdLA"/>
@@ -2468,6 +2471,7 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <OpenModel_Profile:OpenModelClass xmi:id="_DlPQoDnDEeiWMf5FLWfdLA" base_Class="_DlOpkDnDEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOxkNJEeizArvcUMcZaw" base_Class="_DlOpkDnDEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_wHc4MUcpEei7eo5RdnNiBQ" base_StructuralFeature="_wHc4MEcpEei7eo5RdnNiBQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_wjyeAEdtEei3KMAUV7YMMQ" base_Property="_wHc4MEcpEei7eo5RdnNiBQ"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_DZsyMTnHEeiWMf5FLWfdLA" base_Class="_DZsyMDnHEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOx0NJEeizArvcUMcZaw" base_Class="_DZsyMDnHEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_7vM5wDnIEeiWMf5FLWfdLA" base_StructuralFeature="_7vMSsDnIEeiWMf5FLWfdLA"/>
@@ -2501,6 +2505,8 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAXO00NJEeizArvcUMcZaw" base_Class="_M45q8D0REeiuk5pWzMOpfA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_t6al0EJ8EeiwbqJBYHKltg" base_StructuralFeature="_t6Z-wEJ8EeiwbqJBYHKltg"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAXO1ENJEeizArvcUMcZaw" base_Property="_t6Z-wEJ8EeiwbqJBYHKltg"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_XAX4sEduEei3KMAUV7YMMQ" base_Class="_XAXRoEduEei3KMAUV7YMMQ"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_XAYfwEduEei3KMAUV7YMMQ" base_Class="_XAXRoEduEei3KMAUV7YMMQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_vXCrgDatEei23_xWdimG9w" base_StructuralFeature="_vXCEcDatEei23_xWdimG9w"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAXO1kNJEeizArvcUMcZaw" base_Property="_vXCEcDatEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_d8Gh0TaxEei23_xWdimG9w" base_StructuralFeature="_d8Gh0DaxEei23_xWdimG9w"/>
@@ -2609,10 +2615,4 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAgYtENJEeizArvcUMcZaw" base_Property="_KFKIIDnIEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_SHcjkDnIEeiWMf5FLWfdLA" base_StructuralFeature="_SHb8gDnIEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAgYtUNJEeizArvcUMcZaw" base_Property="_SHb8gDnIEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_wi2p4EdtEei3KMAUV7YMMQ" base_Property="_8dhyIES6EeiVGPeZpaYNtQ"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_wjgxMEdtEei3KMAUV7YMMQ" base_StructuralFeature="_8dhyIES6EeiVGPeZpaYNtQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_wjx28EdtEei3KMAUV7YMMQ" base_Property="_4RsAoEcnEei7eo5RdnNiBQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_wjyeAEdtEei3KMAUV7YMMQ" base_Property="_wHc4MEcpEei7eo5RdnNiBQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_XAX4sEduEei3KMAUV7YMMQ" base_Class="_XAXRoEduEei3KMAUV7YMMQ"/>
-  <OpenModel_Profile:OpenModelClass xmi:id="_XAYfwEduEei3KMAUV7YMMQ" base_Class="_XAXRoEduEei3KMAUV7YMMQ"/>
 </xmi:XMI>
