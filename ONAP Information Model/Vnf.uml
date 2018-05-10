@@ -285,7 +285,7 @@ NOTE 2: virtualLinkProfile needs to be provided for all VLs that the CPs of the 
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_PJmu4jnHEeiWMf5FLWfdLA" name="_instantiationLevel" type="_6C8F4DnAEeiWMf5FLWfdLA" association="_PJjEgDnHEeiWMf5FLWfdLA"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_8qDIUD5xEeijbdkIlrq2uQ" name="VnfDfHasvduProfile" memberEnd="_8qGysD5xEeijbdkIlrq2uQ _8qIn4T5xEeijbdkIlrq2uQ">
+      <packagedElement xmi:type="uml:Association" xmi:id="_8qDIUD5xEeijbdkIlrq2uQ" name="VnfDfHasVduProfile" memberEnd="_8qGysD5xEeijbdkIlrq2uQ _8qIn4T5xEeijbdkIlrq2uQ">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8qFkkD5xEeijbdkIlrq2uQ" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8qGLoD5xEeijbdkIlrq2uQ" key="nature" value="UML_Nature"/>
         </eAnnotations>
@@ -304,9 +304,6 @@ NOTE 2: virtualLinkProfile needs to be provided for all VLs that the CPs of the 
     <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MDOHEei5Af8DcjrhIQ" name="Diagrams">
       <ownedComment xmi:type="uml:Comment" xmi:id="_bphG0DTSEeiwQ6KPLHcy4g" annotatedElement="_zPN5MDOHEei5Af8DcjrhIQ">
         <body>Describes the associated elements of a VNFD for a certain purpose during VNF lifecycle management.</body>
-      </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_NxgwADdVEeiIfPeSAqyGdQ" annotatedElement="_zOfv8DQVEeixv_sLOod4lQ _AmzWYDQtEeixv_sLOod4lQ">
-        <body>Is virtua lNetwork Intface Requirements a class or a data type? Answer: Made this a class in accordance with IFA011</body>
       </ownedComment>
       <ownedComment xmi:type="uml:Comment" xmi:id="__NBssDdxEeiIfPeSAqyGdQ" annotatedElement="_3Es6sDdxEeiIfPeSAqyGdQ">
         <body>Missing in clean, but in Sparx and ifa011</body>
@@ -1308,12 +1305,11 @@ NOTE: Each identifier references an affinity or anti-affinity group which expres
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VYZ_ADm9EeiWMf5FLWfdLA"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VYvWMDm9EeiWMf5FLWfdLA" value="*"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_H9Vd0Dm5EeiWMf5FLWfdLA" name="nicIoRequirements">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_H9Vd0Dm5EeiWMf5FLWfdLA" name="nicIoRequirements" type="_lp6e4DatEei23_xWdimG9w">
           <ownedComment xmi:type="uml:Comment" xmi:id="_1kSgsEbvEei7eo5RdnNiBQ" annotatedElement="_H9Vd0Dm5EeiWMf5FLWfdLA">
             <body>This references (couples) the CPD with any logical node I/O requirements (for network devices) that may have been created. Linking these attributes is necessary so that so that I/O requirements that need to be articulated at the logical node level can be associated with the network interface requirements associated with the CPD.&#xD;
 </body>
           </ownedComment>
-          <type xmi:type="uml:DataType" href="Common.uml#_AuYtcDkBEeiWMf5FLWfdLA"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bumsEDm9EeiWMf5FLWfdLA"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bu6OEDm9EeiWMf5FLWfdLA" value="1"/>
         </ownedAttribute>
@@ -1490,7 +1486,6 @@ VF Module is a method to implement a placement group, Missing relationship to VD
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8dhLEES6EeiVGPeZpaYNtQ" value="*"/>
         </ownedAttribute>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_XAXRoEduEei3KMAUV7YMMQ" name="TestClass"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MzOHEei5Af8DcjrhIQ" name="TypeDefinitions">
       <packagedElement xmi:type="uml:DataType" xmi:id="_lp6e4DatEei23_xWdimG9w" name="LogicalNodeData ">
@@ -2505,8 +2500,6 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAXO00NJEeizArvcUMcZaw" base_Class="_M45q8D0REeiuk5pWzMOpfA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_t6al0EJ8EeiwbqJBYHKltg" base_StructuralFeature="_t6Z-wEJ8EeiwbqJBYHKltg"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAXO1ENJEeizArvcUMcZaw" base_Property="_t6Z-wEJ8EeiwbqJBYHKltg"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_XAX4sEduEei3KMAUV7YMMQ" base_Class="_XAXRoEduEei3KMAUV7YMMQ"/>
-  <OpenModel_Profile:OpenModelClass xmi:id="_XAYfwEduEei3KMAUV7YMMQ" base_Class="_XAXRoEduEei3KMAUV7YMMQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_vXCrgDatEei23_xWdimG9w" base_StructuralFeature="_vXCEcDatEei23_xWdimG9w"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAXO1kNJEeizArvcUMcZaw" base_Property="_vXCEcDatEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_d8Gh0TaxEei23_xWdimG9w" base_StructuralFeature="_d8Gh0DaxEei23_xWdimG9w"/>
