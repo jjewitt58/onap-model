@@ -162,11 +162,7 @@ NOTE: More software images can be attached to the virtualisation container using
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ufzyMDdVEeiIfPeSAqyGdQ" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ufzyMTdVEeiIfPeSAqyGdQ" key="nature" value="UML_Nature"/>
         </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_uf0ZQDdVEeiIfPeSAqyGdQ" name="vducpd (vducpdesc) (vnfc connection point desc)" type="_zOfv8DQVEeixv_sLOod4lQ" association="_ufxV8DdVEeiIfPeSAqyGdQ">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7fXY4DdVEeiIfPeSAqyGdQ"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7facMDdVEeiIfPeSAqyGdQ" value="1"/>
-        </ownedEnd>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_uf1nYDdVEeiIfPeSAqyGdQ" name="vnfextcpd (vnfextcpdesc)" type="_AmzWYDQtEeixv_sLOod4lQ" association="_ufxV8DdVEeiIfPeSAqyGdQ">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_uf1nYDdVEeiIfPeSAqyGdQ" name="vnfextcpd" type="_AmzWYDQtEeixv_sLOod4lQ" association="_ufxV8DdVEeiIfPeSAqyGdQ">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8yFlADdVEeiIfPeSAqyGdQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8yIBQDdVEeiIfPeSAqyGdQ" value="1"/>
         </ownedEnd>
@@ -179,24 +175,21 @@ NOTE: More software images can be attached to the virtualisation container using
           <body>Identifies a flavour within a VnfVirtualLinkDesc.&#xD;
 </body>
         </ownedComment>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_uohQ8jgTEeiOYfGHew0BGg" name="virtuallinkdescflavour" type="_oFQM8Dd-EeiIfPeSAqyGdQ" association="_uogp4DgTEeiOYfGHew0BGg"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_uok7UDgTEeiOYfGHew0BGg" name="virtuallinkprofile" type="_0lvvQDgREeiOYfGHew0BGg" association="_uogp4DgTEeiOYfGHew0BGg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_3Es6sDdxEeiIfPeSAqyGdQ" name="ExternalCPHasVL" memberEnd="_3EuI0TdxEeiIfPeSAqyGdQ _3Euv4DdxEeiIfPeSAqyGdQ">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3EthwDdxEeiIfPeSAqyGdQ" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3EuI0DdxEeiIfPeSAqyGdQ" key="nature" value="UML_Nature"/>
         </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_3EuI0TdxEeiIfPeSAqyGdQ" name="virtuallinkdesc (vnfvirtuallinkdesc" type="_AC2eIDQUEeixv_sLOod4lQ" association="_3Es6sDdxEeiIfPeSAqyGdQ">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OGL5UDdyEeiIfPeSAqyGdQ"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OGQx0DdyEeiIfPeSAqyGdQ" value="1"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_3Euv4DdxEeiIfPeSAqyGdQ" name="_vnfExtCpd" type="_AmzWYDQtEeixv_sLOod4lQ" association="_3Es6sDdxEeiIfPeSAqyGdQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VyX5oFk3Eei_mfVdtu-9mQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VygcgFk3Eei_mfVdtu-9mQ" value="1"/>
         </ownedEnd>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_3Euv4DdxEeiIfPeSAqyGdQ" name="vnfextcpd (vnfextcpdesc)" type="_AmzWYDQtEeixv_sLOod4lQ" association="_3Es6sDdxEeiIfPeSAqyGdQ"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_e_oF8DgSEeiOYfGHew0BGg" name="VLDescHasVLProfile" memberEnd="_e_qiMDgSEeiOYfGHew0BGg _e_tlgDgSEeiOYfGHew0BGg">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_e_p7IDgSEeiOYfGHew0BGg" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e_p7ITgSEeiOYfGHew0BGg" key="nature" value="UML_Nature"/>
         </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_e_qiMDgSEeiOYfGHew0BGg" name="virtuallinkdesc (vnfvirtuallinkdesc)" type="_AC2eIDQUEeixv_sLOod4lQ" association="_e_oF8DgSEeiOYfGHew0BGg"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_e_tlgDgSEeiOYfGHew0BGg" name="virtuallinkprofile" type="_0lvvQDgREeiOYfGHew0BGg" association="_e_oF8DgSEeiOYfGHew0BGg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_gt50cDm5EeiWMf5FLWfdLA" name="VduCpdHasVNIR" memberEnd="_guTdEjm5EeiWMf5FLWfdLA _guVSQTm5EeiWMf5FLWfdLA">
@@ -273,7 +266,7 @@ NOTE 2: virtualLinkProfile needs to be provided for all VLs that the CPs of the 
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_hz7WcDm7EeiWMf5FLWfdLA" name="_vnfExtCpd " type="_AmzWYDQtEeixv_sLOod4lQ" association="_hzDMsDm7EeiWMf5FLWfdLA"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_oUgnMDm-EeiWMf5FLWfdLA" name="VVLDescHasVLDescFlavour" memberEnd="_oUh1Ujm-EeiWMf5FLWfdLA _oUjqgTm-EeiWMf5FLWfdLA">
+      <packagedElement xmi:type="uml:Association" xmi:id="_oUgnMDm-EeiWMf5FLWfdLA" name="VLDescHasVLDescFlavour" memberEnd="_oUh1Ujm-EeiWMf5FLWfdLA _oUjqgTm-EeiWMf5FLWfdLA">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oUh1UDm-EeiWMf5FLWfdLA" source="org.eclipse.papyrus">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oUh1UTm-EeiWMf5FLWfdLA" key="nature" value="UML_Nature"/>
         </eAnnotations>
@@ -299,55 +292,6 @@ NOTE 2: virtualLinkProfile needs to be provided for all VLs that the CPs of the 
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8c0ngES6EeiVGPeZpaYNtQ" key="nature" value="UML_Nature"/>
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_8dhyIES6EeiVGPeZpaYNtQ" name="_vnf" type="_Io3nQESzEeiVGPeZpaYNtQ" association="_8cc0EES6EeiVGPeZpaYNtQ"/>
-      </packagedElement>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MDOHEei5Af8DcjrhIQ" name="Diagrams">
-      <ownedComment xmi:type="uml:Comment" xmi:id="_bphG0DTSEeiwQ6KPLHcy4g" annotatedElement="_zPN5MDOHEei5Af8DcjrhIQ">
-        <body>Describes the associated elements of a VNFD for a certain purpose during VNF lifecycle management.</body>
-      </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="__NBssDdxEeiIfPeSAqyGdQ" annotatedElement="_3Es6sDdxEeiIfPeSAqyGdQ">
-        <body>Missing in clean, but in Sparx and ifa011</body>
-      </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_gY6a0DgXEeiOYfGHew0BGg">
-        <body>A few quick observations&#xD;
-1.  Using integer for number. Jessie: Created a primitive called Number which is a superset of integer and real.&#xD;
-2.  created a datatype called enum. Deleted enum. Created &quot;enums&quot; where needed.&#xD;
-3.   Seems like we are just using ETSI (beyound what we have in the works). Jessie: It appears that way.&#xD;
-4.   Is monitoring param a class or a data type?  Jessie: It is a datatype.  Due to it's relationship to event, maybe a class??&#xD;
-5.  Class versus datatype??</body>
-      </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_fAb24Dz3Eeiuk5pWzMOpfA" annotatedElement="_DlOpkDnDEeiWMf5FLWfdLA">
-        <body>Not Defined in Clean</body>
-      </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_JuzvQEJ8EeiwbqJBYHKltg" annotatedElement="_CaBRQD0REeiuk5pWzMOpfA">
-        <body>How do we model a list?</body>
-      </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_TDLdoEJ8EeiwbqJBYHKltg" annotatedElement="_FLWJYD0REeiuk5pWzMOpfA">
-        <body>Need strategyScope - query Mark M.</body>
-      </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_FYOMsEKAEeiwbqJBYHKltg">
-        <annotatedElement xmi:type="uml:Class" href="Service.uml#_7SrB0D0VEeiWMf5FLWfdLA"/>
-        <annotatedElement xmi:type="uml:Class" href="#_aaEZADOREeiHat9KcP8uWA"/>
-        <body>ResourceDesc???</body>
-      </ownedComment>
-      <packagedElement xmi:type="uml:Association" xmi:id="_KOPAwEJ9EeiwbqJBYHKltg" memberEnd="_KOSEEEJ9EeiwbqJBYHKltg _KOYxwEJ9EeiwbqJBYHKltg">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KOQ18EJ9EeiwbqJBYHKltg" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KORdAEJ9EeiwbqJBYHKltg" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_KOSEEEJ9EeiwbqJBYHKltg" name="scalinggroup" type="_M45q8D0REeiuk5pWzMOpfA" association="_KOPAwEJ9EeiwbqJBYHKltg"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_KOYxwEJ9EeiwbqJBYHKltg" name="vnfvirtuallinkdesc " type="_AC2eIDQUEeixv_sLOod4lQ" association="_KOPAwEJ9EeiwbqJBYHKltg"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_oVoSIEJ9EeiwbqJBYHKltg" name="ServiceFlavorUsersHomingGroup" memberEnd="_oVpgQEJ9EeiwbqJBYHKltg _oVqHUEJ9EeiwbqJBYHKltg">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oVo5MEJ9EeiwbqJBYHKltg" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oVo5MUJ9EeiwbqJBYHKltg" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_oVpgQEJ9EeiwbqJBYHKltg" name="nsdf" association="_oVoSIEJ9EeiwbqJBYHKltg">
-          <type xmi:type="uml:Class" href="Service.uml#_13gdcDzEEeiWMf5FLWfdLA"/>
-        </ownedEnd>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_oVqHUEJ9EeiwbqJBYHKltg" name="hominggroup" type="_CaBRQD0REeiuk5pWzMOpfA" association="_oVoSIEJ9EeiwbqJBYHKltg">
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xVtLgEJ9EeiwbqJBYHKltg"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xVyEAEJ9EeiwbqJBYHKltg" value="*"/>
-        </ownedEnd>
       </packagedElement>
       <packagedElement xmi:type="uml:Association" xmi:id="_m-GzoEJ_EeiwbqJBYHKltg" memberEnd="_m-HasUJ_EeiwbqJBYHKltg _m-RLsEJ_EeiwbqJBYHKltg">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m-GzoUJ_EeiwbqJBYHKltg" source="org.eclipse.papyrus">
@@ -401,6 +345,84 @@ NOTE 2: virtualLinkProfile needs to be provided for all VLs that the CPs of the 
         <ownedEnd xmi:type="uml:Property" xmi:id="_h7IzkkKAEeiwbqJBYHKltg" name="scalinggroup" type="_M45q8D0REeiuk5pWzMOpfA" association="_h7IMgEKAEeiwbqJBYHKltg"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_h7PhQEKAEeiwbqJBYHKltg" name="vnfdf " type="_p0UVsDQvEeixv_sLOod4lQ" association="_h7IMgEKAEeiwbqJBYHKltg"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mcaXQFqmEeiTzriVSbKglg" name="VirtualLinkProfileHasAffinityorAAGroup" memberEnd="_mcgd4FqmEeiTzriVSbKglg _mciTEFqmEeiTzriVSbKglg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mcfPwFqmEeiTzriVSbKglg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mcfPwVqmEeiTzriVSbKglg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_mcgd4FqmEeiTzriVSbKglg" name="affinityorantiaffinitygroup" type="_0AbUYDnBEeiWMf5FLWfdLA" association="_mcaXQFqmEeiTzriVSbKglg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_mciTEFqmEeiTzriVSbKglg" name="virtuallinkprofile" type="_0lvvQDgREeiOYfGHew0BGg" association="_mcaXQFqmEeiTzriVSbKglg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_KOPAwEJ9EeiwbqJBYHKltg" memberEnd="_KOSEEEJ9EeiwbqJBYHKltg _KOYxwEJ9EeiwbqJBYHKltg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KOQ18EJ9EeiwbqJBYHKltg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KORdAEJ9EeiwbqJBYHKltg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_KOSEEEJ9EeiwbqJBYHKltg" name="scalinggroup" type="_M45q8D0REeiuk5pWzMOpfA" association="_KOPAwEJ9EeiwbqJBYHKltg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_KOYxwEJ9EeiwbqJBYHKltg" name="vnfvirtuallinkdesc " type="_AC2eIDQUEeixv_sLOod4lQ" association="_KOPAwEJ9EeiwbqJBYHKltg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_oVoSIEJ9EeiwbqJBYHKltg" name="ServiceFlavorUsersHomingGroup" memberEnd="_oVpgQEJ9EeiwbqJBYHKltg _oVqHUEJ9EeiwbqJBYHKltg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oVo5MEJ9EeiwbqJBYHKltg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oVo5MUJ9EeiwbqJBYHKltg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_oVpgQEJ9EeiwbqJBYHKltg" name="nsdf" association="_oVoSIEJ9EeiwbqJBYHKltg">
+          <type xmi:type="uml:Class" href="Service.uml#_13gdcDzEEeiWMf5FLWfdLA"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_oVqHUEJ9EeiwbqJBYHKltg" name="hominggroup" type="_CaBRQD0REeiuk5pWzMOpfA" association="_oVoSIEJ9EeiwbqJBYHKltg">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xVtLgEJ9EeiwbqJBYHKltg"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xVyEAEJ9EeiwbqJBYHKltg" value="*"/>
+        </ownedEnd>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MDOHEei5Af8DcjrhIQ" name="Diagrams">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_bphG0DTSEeiwQ6KPLHcy4g" annotatedElement="_zPN5MDOHEei5Af8DcjrhIQ">
+        <body>Describes the associated elements of a VNFD for a certain purpose during VNF lifecycle management.</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="__NBssDdxEeiIfPeSAqyGdQ" annotatedElement="_3Es6sDdxEeiIfPeSAqyGdQ">
+        <body>Missing in clean, but in Sparx and ifa011</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_gY6a0DgXEeiOYfGHew0BGg">
+        <body>A few quick observations&#xD;
+1.  Using integer for number. Jessie: Created a primitive called Number which is a superset of integer and real.&#xD;
+2.  created a datatype called enum. Deleted enum. Created &quot;enums&quot; where needed.&#xD;
+3.   Seems like we are just using ETSI (beyound what we have in the works). Jessie: It appears that way.&#xD;
+4.   Is monitoring param a class or a data type?  Jessie: It is a datatype.  Due to it's relationship to event, maybe a class??&#xD;
+5.  Class versus datatype??</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_fAb24Dz3Eeiuk5pWzMOpfA" annotatedElement="_DlOpkDnDEeiWMf5FLWfdLA">
+        <body>Not Defined in Clean</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_JuzvQEJ8EeiwbqJBYHKltg" annotatedElement="_CaBRQD0REeiuk5pWzMOpfA">
+        <body>How do we model a list?</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_TDLdoEJ8EeiwbqJBYHKltg" annotatedElement="_FLWJYD0REeiuk5pWzMOpfA">
+        <body>Need strategyScope - query Mark M.</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_FYOMsEKAEeiwbqJBYHKltg">
+        <annotatedElement xmi:type="uml:Class" href="Service.uml#_7SrB0D0VEeiWMf5FLWfdLA"/>
+        <annotatedElement xmi:type="uml:Class" href="#_aaEZADOREeiHat9KcP8uWA"/>
+        <body>ResourceDesc???</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_eVmBEF3bEeiwL5tPgFMcjQ">
+        <body>vnfInstanceId - why not a relationship?&#xD;
+&#xD;
+vnfInstanceNameAlt = vnfInstanceAlterName?&#xD;
+&#xD;
+vnfNamingCode = vnfInstanceNamingCode?&#xD;
+&#xD;
+vnfProductName - agree it should be deleted.    Also question name of 'product'</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_8FmwYF3fEeiwL5tPgFMcjQ">
+        <body>description - reference from vnfd?  vnfProductInfoDescription&#xD;
+vnfProvider - agree that this should be deleted&#xD;
+vnfdid - an association rather than an attribute?</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_DmyjsF39Eei-d9bwZwcVEw">
+        <body>availability zone - should be a relationship (delete)&#xD;
+instantiatedVnfInfo - should be related to vnfcs, not an attribute of a vnf (delete)&#xD;
+vnfConfigProperty - need more info.  Different name?</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_WRmVoF4AEei-d9bwZwcVEw">
+        <body>modelInfo dataType?</body>
+      </ownedComment>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MTOHEei5Af8DcjrhIQ" name="Interfaces"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MjOHEei5Af8DcjrhIQ" name="ObjectClasses">
@@ -483,16 +505,32 @@ NOTE: These are constraints other than stipulating that a VNFC instance has acce
             <body>Describes the configurable properties of all VNFC instances based on this VDU.	</body>
           </ownedComment>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_j9-9sDWeEei9Ia34RXjpEg" name="_vduCpd" type="_zOfv8DQVEeixv_sLOod4lQ" aggregation="shared" association="_j97TUDWeEei9Ia34RXjpEg"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_j9-9sDWeEei9Ia34RXjpEg" name="_vduCpd" type="_zOfv8DQVEeixv_sLOod4lQ" aggregation="shared" association="_j97TUDWeEei9Ia34RXjpEg">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_5laYgFqSEeiTzriVSbKglg" annotatedElement="_j9-9sDWeEei9Ia34RXjpEg">
+            <body>Describes network connectivity between a VNFC instance (based on this Vdu) and an Virtual Link (VL).</body>
+          </ownedComment>
+        </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_345dADabEei23_xWdimG9w" name="_virtualComputeDesc" type="_-gDvwDOREeiHat9KcP8uWA" aggregation="shared" association="_343n0DabEei23_xWdimG9w">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_9hdXUFqSEeiTzriVSbKglg" annotatedElement="_345dADabEei23_xWdimG9w">
+            <body>Describes CPU, Memory and acceleration requirements of the Virtualisation Container realising this Vdu.</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NuP_sDacEei23_xWdimG9w" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Nui6oDacEei23_xWdimG9w" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_uwHosDadEei23_xWdimG9w" name="_virtualStorageDesc" type="_K_9mADOSEeiHat9KcP8uWA" aggregation="shared" association="_uwCwMDadEei23_xWdimG9w">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_AmRMIFqTEeiTzriVSbKglg" annotatedElement="_uwHosDadEei23_xWdimG9w">
+            <body>Describes storage requirements for a VirtualStorage instance attached to the virtualisation container created from virtualComputeDesc defined for this Vdu.</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_gBTOYDaeEei23_xWdimG9w"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_gBVqoDaeEei23_xWdimG9w" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_MxzowjagEei23_xWdimG9w" name="_swImageDesc" type="_J0Zx0DOSEeiHat9KcP8uWA" aggregation="shared" association="_MxzBsDagEei23_xWdimG9w">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_EPv0QFqTEeiTzriVSbKglg" annotatedElement="_MxzowjagEei23_xWdimG9w">
+            <body>Describes the software image which is directly loaded on the virtualisation container realising this Vdu.&#xD;
+&#xD;
+NOTE: More software images can be attached to the virtualisation container using VirtualStorage resources.&#xD;
+</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aeqaUDagEei23_xWdimG9w"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aetdoDagEei23_xWdimG9w" value="1"/>
         </ownedAttribute>
@@ -572,7 +610,7 @@ NOTE: This allows to provide one or more localization languages to support selec
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KBLYYDkKEeiWMf5FLWfdLA"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KBsVwDkKEeiWMf5FLWfdLA" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_qFisADOUEeiHat9KcP8uWA" name="vnfId">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_qFisADOUEeiHat9KcP8uWA" name="vnfdId">
           <ownedComment xmi:type="uml:Comment" xmi:id="_8UkBMDOUEeiHat9KcP8uWA" annotatedElement="_qFisADOUEeiHat9KcP8uWA">
             <body>Identifier of this VNFD information element. This attribute shall be globally unique.&#xD;
 &#xD;
@@ -777,6 +815,9 @@ Identifies the operating system used in the software image. This attribute may a
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_ISONYDOSEeiHat9KcP8uWA" name="VduProfile">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_7TLoQFqaEeiTzriVSbKglg" annotatedElement="_ISONYDOSEeiHat9KcP8uWA">
+          <body>The VduProfile describes additional instantiation data for a given VDU used in a DF.</body>
+        </ownedComment>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_aikFADdzEeiIfPeSAqyGdQ" name="vudId">
           <ownedComment xmi:type="uml:Comment" xmi:id="_ENWhEDd0EeiIfPeSAqyGdQ" annotatedElement="_aikFADdzEeiIfPeSAqyGdQ">
             <body>Uniquely identifies a VDU.&#xD;
@@ -833,6 +874,9 @@ NOTE: Each identifier references an affinity or anti-affinity group which expres
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_-gDvwDOREeiHat9KcP8uWA" name="VirtualComputeDesc ">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_JozqAFqbEeiTzriVSbKglg" annotatedElement="_-gDvwDOREeiHat9KcP8uWA">
+          <body>The VirtualComputeDesc information element supports the specification of requirements related to virtual compute resources.</body>
+        </ownedComment>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_CEDZsDatEei23_xWdimG9w" name="virtualComputeDescId">
           <ownedComment xmi:type="uml:Comment" xmi:id="_Hyva0DatEei23_xWdimG9w" annotatedElement="_CEDZsDatEei23_xWdimG9w">
             <body>Unique identifier of this VirtualComputeDesc in the VNFD</body>
@@ -962,6 +1006,9 @@ NOTE: Each identifier references an affinity or anti-affinity group which expres
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_zOfv8DQVEeixv_sLOod4lQ" name="VduCpd ">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_-4XYgFqVEeiTzriVSbKglg" annotatedElement="_zOfv8DQVEeixv_sLOod4lQ">
+          <body>A VduCpd information element is a type of Cpd and describes network connectivity between a VNFC instance (based on this VDU) and an internal VL.</body>
+        </ownedComment>
         <generalization xmi:type="uml:Generalization" xmi:id="_W3y74DdREeiIfPeSAqyGdQ" general="_7pUNEDa7EeivvI-m1BaAbA"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_7nJYsDdREeiIfPeSAqyGdQ" name="bitrateRequirement">
           <ownedComment xmi:type="uml:Comment" xmi:id="_B1YckDdSEeiIfPeSAqyGdQ" annotatedElement="_7nJYsDdREeiIfPeSAqyGdQ">
@@ -999,6 +1046,9 @@ NOTE: Each identifier references an affinity or anti-affinity group which expres
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_etYGIDdTEeiIfPeSAqyGdQ" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_guTdEjm5EeiWMf5FLWfdLA" name="_virtualNetworkInterfaceRequirements" type="_8BUXwDm4EeiWMf5FLWfdLA" aggregation="composite" association="_gt50cDm5EeiWMf5FLWfdLA">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_fiuZEFqaEeiTzriVSbKglg" annotatedElement="_guTdEjm5EeiWMf5FLWfdLA">
+            <body>Specifies requirements on a virtual network interface realising the CPs instantiated from this CPD.</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_guUrMDm5EeiWMf5FLWfdLA"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_guVSQDm5EeiWMf5FLWfdLA" value="*"/>
         </ownedAttribute>
@@ -1050,6 +1100,21 @@ NOTE: Each identifier references an affinity or anti-affinity group which expres
         <ownedAttribute xmi:type="uml:Property" xmi:id="_hzG3ETm7EeiWMf5FLWfdLA" name="_virtualNetworkInterfaceRequirements" type="_8BUXwDm4EeiWMf5FLWfdLA" aggregation="composite" association="_hzDMsDm7EeiWMf5FLWfdLA">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hzobgDm7EeiWMf5FLWfdLA"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hzyMgDm7EeiWMf5FLWfdLA" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_3EuI0TdxEeiIfPeSAqyGdQ" name="_intVirtualLinkDesc" type="_AC2eIDQUEeixv_sLOod4lQ" association="_3Es6sDdxEeiIfPeSAqyGdQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="__bRfUFk3Eei_mfVdtu-9mQ" annotatedElement="_3EuI0TdxEeiIfPeSAqyGdQ">
+            <body>Reference to the internal Virtual Link&#xD;
+Descriptor (VLD) to which CPs instantiated&#xD;
+from this external CP Descriptor (CPD)&#xD;
+connect. Either intVirtualLinkDesc or&#xD;
+intCpd shall be present.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OGL5UDdyEeiIfPeSAqyGdQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OGQx0DdyEeiIfPeSAqyGdQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_uf0ZQDdVEeiIfPeSAqyGdQ" name="_vduCpd" type="_zOfv8DQVEeixv_sLOod4lQ" association="_ufxV8DdVEeiIfPeSAqyGdQ">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7fXY4DdVEeiIfPeSAqyGdQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7facMDdVEeiIfPeSAqyGdQ" value="1"/>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_X3eqgDTQEeiwQ6KPLHcy4g" name="VnfdElementGroup">
@@ -1171,6 +1236,9 @@ Editor's note: the attribute &quot;layerProtocol&quot; still needs further discu
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_oFQM8Dd-EeiIfPeSAqyGdQ" name="VirtualLinkDescFlavour">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dcvukFqbEeiTzriVSbKglg" annotatedElement="_oFQM8Dd-EeiIfPeSAqyGdQ">
+          <body>The VirtualLinkDescFlavour describes additional instantiation data for a given internal VL used in a DF.</body>
+        </ownedComment>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_v0nsYDd-EeiIfPeSAqyGdQ" name="qos" type="_B1G2UDd_EeiIfPeSAqyGdQ">
           <ownedComment xmi:type="uml:Comment" xmi:id="_28zsQDgcEeiOYfGHew0BGg" annotatedElement="_v0nsYDd-EeiIfPeSAqyGdQ">
             <body>QoS of the VL.</body>
@@ -1191,18 +1259,6 @@ Editor's note: the attribute &quot;layerProtocol&quot; still needs further discu
         <ownedComment xmi:type="uml:Comment" xmi:id="__mm0oDgREeiOYfGHew0BGg" annotatedElement="_0lvvQDgREeiOYfGHew0BGg">
           <body>The VirtualLinkProfile describes additional instantiation data for a given VL used in a DF.</body>
         </ownedComment>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_eihhADnEEeiWMf5FLWfdLA" name="vnfVirtualLinkDescId" visibility="public">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_pd30QDnEEeiWMf5FLWfdLA" annotatedElement="_eihhADnEEeiWMf5FLWfdLA">
-            <body>Uniquely identifies a Vnf VLD.</body>
-          </ownedComment>
-          <type xmi:type="uml:DataType" href="Common.uml#_AuYtcDkBEeiWMf5FLWfdLA"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_zoP9kDnEEeiWMf5FLWfdLA" name="flavourId" visibility="public">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_650twDnEEeiWMf5FLWfdLA" annotatedElement="_zoP9kDnEEeiWMf5FLWfdLA">
-            <body>Identifies a flavour within the VnfVirtualLinkDesc.</body>
-          </ownedComment>
-          <type xmi:type="uml:DataType" href="Common.uml#_AuYtcDkBEeiWMf5FLWfdLA"/>
-        </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_uA9FMDgUEeiOYfGHew0BGg" name="localAffinityOrAntiAffinityRule" type="_7hn1IDd1EeiIfPeSAqyGdQ">
           <ownedComment xmi:type="uml:Comment" xmi:id="_3SRfkDgUEeiOYfGHew0BGg" annotatedElement="_uA9FMDgUEeiOYfGHew0BGg">
             <body>Specifies affinity or anti-affinity rules applicable between the VLs based on this VnfVirtualLinkDesc.&#xD;
@@ -1266,6 +1322,16 @@ NOTE: Each identifier references an affinity or anti-affinity group which expres
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XCkZsDgbEeiOYfGHew0BGg"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XCndADgbEeiOYfGHew0BGg" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_uohQ8jgTEeiOYfGHew0BGg" name="_virtualLinkDescFlavour" type="_oFQM8Dd-EeiIfPeSAqyGdQ" aggregation="shared" association="_uogp4DgTEeiOYfGHew0BGg">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_Nj634FqfEeiTzriVSbKglg" annotatedElement="_uohQ8jgTEeiOYfGHew0BGg">
+            <body>Identifies a flavour within the VnfVirtualLinkDesc.</body>
+          </ownedComment>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_e_qiMDgSEeiOYfGHew0BGg" name="_virtualLinkDesc" type="_AC2eIDQUEeixv_sLOod4lQ" aggregation="shared" association="_e_oF8DgSEeiOYfGHew0BGg">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_mb4voFqiEeiTzriVSbKglg" annotatedElement="_e_qiMDgSEeiOYfGHew0BGg">
+            <body>Uniquely identifies a Vnf VLD.</body>
+          </ownedComment>
         </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_8BUXwDm4EeiWMf5FLWfdLA" name="VirtualNetworkInterfaceRequirements">
@@ -1342,10 +1408,19 @@ All the VDUs referenced in the level shall be part of the corresponding DF and t
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mN0b8DnIEeiWMf5FLWfdLA" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_PJk5sjnHEeiWMf5FLWfdLA" name="_vduLevel" type="_DZsyMDnHEeiWMf5FLWfdLA" aggregation="composite" association="_PJjEgDnHEeiWMf5FLWfdLA">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_xYCLoFnHEeiE8vEL41trfQ" annotatedElement="_PJk5sjnHEeiWMf5FLWfdLA">
+            <body>Indicates the number of instance of this VDU to deploy for this level.</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PJmu4DnHEeiWMf5FLWfdLA" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PJmu4TnHEeiWMf5FLWfdLA" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_4RsAoEcnEei7eo5RdnNiBQ" name="virtualLinkBitRateLevel" type="_0RG8kEcmEei7eo5RdnNiBQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="__pcbwFnHEeiE8vEL41trfQ" annotatedElement="_4RsAoEcnEei7eo5RdnNiBQ">
+            <body>Specifies bitrate requirements applicable to virtual links created from particular virtual link descriptors for this level.&#xD;
+&#xD;
+NOTE: If not present, it is assumed that the bitrate requirements can be derived from those specified in the VduCpd instances applicable to the internal VL. If present in both the InstantiationLevel and the VduCpd instances applicable to the internal VL, the highest value takes precedence.&#xD;
+</body>
+          </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J9OOQEcoEei7eo5RdnNiBQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J9WKEEcoEei7eo5RdnNiBQ" value="*"/>
         </ownedAttribute>
@@ -1376,11 +1451,11 @@ All the VDUs referenced in the level shall be part of the corresponding DF and t
         <ownedComment xmi:type="uml:Comment" xmi:id="_PNdQ8DnDEeiWMf5FLWfdLA" annotatedElement="_DlOpkDnDEeiWMf5FLWfdLA">
           <body>The ScalingAspect class describes the details of an aspect used for horizontal scaling.</body>
         </ownedComment>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_wHc4MEcpEei7eo5RdnNiBQ" name="id">
-          <type xmi:type="uml:DataType" href="Common.uml#_AuYtcDkBEeiWMf5FLWfdLA"/>
-        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_DZsyMDnHEeiWMf5FLWfdLA" name="VduLevel">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_t2W2wFqaEeiTzriVSbKglg" annotatedElement="_DZsyMDnHEeiWMf5FLWfdLA">
+          <body>The VduLevel information element indicates for a given VDU in a given level the number of instances to deploy.</body>
+        </ownedComment>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_7vMSsDnIEeiWMf5FLWfdLA" name="vduId" visibility="public">
           <ownedComment xmi:type="uml:Comment" xmi:id="_B2Y6cDnJEeiWMf5FLWfdLA" annotatedElement="_7vMSsDnIEeiWMf5FLWfdLA">
             <body>Uniquely identifies a VDU.</body>
@@ -1428,7 +1503,17 @@ isolation - members of the group do not share the same cloud region.&#xD;
 </body>
         </ownedComment>
         <generalization xmi:type="uml:Generalization" xmi:id="_7DMYMD0REeiuk5pWzMOpfA" general="_X3eqgDTQEeiwQ6KPLHcy4g"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_JHLc0D3BEeiFiY3bcpqGkg" name="homingStrategy" type="_c8RX8D3BEeiFiY3bcpqGkg"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_JHLc0D3BEeiFiY3bcpqGkg" name="homingStrategy" type="_c8RX8D3BEeiFiY3bcpqGkg">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_WQLC8FnGEei6YtblpFtaoA" annotatedElement="_JHLc0D3BEeiFiY3bcpqGkg">
+            <body>The homing strategy can be one of the following:&#xD;
+&#xD;
+Exclusivity - Resources within the cloud region are exclusive to the group &#xD;
+Inclusively - Resources are co-located in the same cloud-region.&#xD;
+Diversity - Resources are geo-diverse ( cannot be co-located).&#xD;
+&#xD;
+</body>
+          </ownedComment>
+        </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_6IunoD5cEeijbdkIlrq2uQ" name="vnfdMembers"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_FLWJYD0REeiuk5pWzMOpfA" name="PlacementGroup">
@@ -1484,6 +1569,171 @@ VF Module is a method to implement a placement group, Missing relationship to VD
           </ownedComment>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8dJ-sES6EeiVGPeZpaYNtQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8dhLEES6EeiVGPeZpaYNtQ" value="*"/>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_jH_PgF3PEeiwL5tPgFMcjQ" name="VnfInstance">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_Qzli4F4CEei-d9bwZwcVEw" annotatedElement="_jH_PgF3PEeiwL5tPgFMcjQ">
+          <body>An implementation of an NF that can be deployed on a Network Function Virtualisation Infrastructure (NFVI).</body>
+        </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_xJolUF3PEeiwL5tPgFMcjQ" name="vnfInstanceId">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_5Pn1AF3PEeiwL5tPgFMcjQ" annotatedElement="_xJolUF3PEeiwL5tPgFMcjQ">
+            <body>identifier of the VNF instance</body>
+          </ownedComment>
+          <type xmi:type="uml:DataType" href="Common.uml#_AuYtcDkBEeiWMf5FLWfdLA"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_OD8jEF3REeiwL5tPgFMcjQ" name="vnfInstanceName">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_BiOG4F3cEeiwL5tPgFMcjQ" annotatedElement="_OD8jEF3REeiwL5tPgFMcjQ">
+            <body>name of the VNF instance</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_W5u3AF3cEeiwL5tPgFMcjQ" name="vnfInstanceAlterName">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_hegn4F3dEeiwL5tPgFMcjQ" annotatedElement="_W5u3AF3cEeiwL5tPgFMcjQ">
+            <body>alternative name of the VNF instance</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Zj3iAF3cEeiwL5tPgFMcjQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZkFkcF3cEeiwL5tPgFMcjQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_3sdQwF3dEeiwL5tPgFMcjQ" name="vnfInstanceNamingCode">
+          <ownedComment xmi:type="uml:Comment" xmi:id="__b7d4F3dEeiwL5tPgFMcjQ" annotatedElement="_3sdQwF3dEeiwL5tPgFMcjQ">
+            <body>short code of the VNF instance</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6ekzEF3dEeiwL5tPgFMcjQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6esH0F3dEeiwL5tPgFMcjQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_xSnkYF3eEeiwL5tPgFMcjQ" name="vnfProductName">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_5gjPIF3eEeiwL5tPgFMcjQ" annotatedElement="_xSnkYF3eEeiwL5tPgFMcjQ">
+            <body>name to identify the VNF Product, invariant for the VNF Product lifetime</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zhxjkF3eEeiwL5tPgFMcjQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zh6GcF3eEeiwL5tPgFMcjQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_jsFn0F3fEeiwL5tPgFMcjQ" name="description">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_pn8iQF3fEeiwL5tPgFMcjQ" annotatedElement="_jsFn0F3fEeiwL5tPgFMcjQ">
+            <body>description of the VNF instance</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mtT9IF3fEeiwL5tPgFMcjQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mtbR4F3fEeiwL5tPgFMcjQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_HY63sF3gEeiwL5tPgFMcjQ" name="vnfProvider">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_ODWvYF3gEeiwL5tPgFMcjQ" annotatedElement="_HY63sF3gEeiwL5tPgFMcjQ">
+            <body>provider of the VNF model</body>
+          </ownedComment>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ANTnwF3vEeiwL5tPgFMcjQ" name="vnfdId">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_Uapq0F3vEeiwL5tPgFMcjQ" annotatedElement="_ANTnwF3vEeiwL5tPgFMcjQ">
+            <body>identifier of the VNF model</body>
+          </ownedComment>
+          <type xmi:type="uml:DataType" href="Common.uml#_AuYtcDkBEeiWMf5FLWfdLA"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_rg2KUF3vEeiwL5tPgFMcjQ" name="vnfdVersion">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_x6fM8F3vEeiwL5tPgFMcjQ" annotatedElement="_rg2KUF3vEeiwL5tPgFMcjQ">
+            <body>version of the VNF model</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_D0XjIF3xEeiwL5tPgFMcjQ" name="vnfSoftwareVersion">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_JKUUIF3xEeiwL5tPgFMcjQ" annotatedElement="_D0XjIF3xEeiwL5tPgFMcjQ">
+            <body>Software version of the VNF. This is changed when there is any change to the software that is included in the VNF package</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_b9AvYF33EeiwL5tPgFMcjQ" name="onboardedVnfPkgInfoId">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_qk93QF33EeiwL5tPgFMcjQ" annotatedElement="_b9AvYF33EeiwL5tPgFMcjQ">
+            <body>identifier of the specific VNF package on which the VNF instance is based</body>
+          </ownedComment>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_yX0vkF33EeiwL5tPgFMcjQ" name="availabilityZone">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_2-FJAF33EeiwL5tPgFMcjQ" annotatedElement="_yX0vkF33EeiwL5tPgFMcjQ">
+            <body>availability zone information of the VNF instance</body>
+          </ownedComment>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_FBeyUF34EeiwL5tPgFMcjQ" name="provStatus">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_MY8IEF34EeiwL5tPgFMcjQ" annotatedElement="_FBeyUF34EeiwL5tPgFMcjQ">
+            <body>provisioning status, used as a trigger for operational monitoring of this resource by service assurance systems&#xD;
+ valid value example: PROVISIONED, PREPROVISIONED, CAPPED</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Ht6jYF34EeiwL5tPgFMcjQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ht_b4F34EeiwL5tPgFMcjQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_2BvAEF34EeiwL5tPgFMcjQ" name="operationalStatus">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_66NK4F34EeiwL5tPgFMcjQ" annotatedElement="_2BvAEF34EeiwL5tPgFMcjQ">
+            <body>indicator for whether the resource is considered operational. Valid values are in-service-path and out-of-service-path.</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4tZ8IF34EeiwL5tPgFMcjQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4tifAF34EeiwL5tPgFMcjQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_B2EJwF35EeiwL5tPgFMcjQ" name="instantiationState">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_GtYeAF35EeiwL5tPgFMcjQ" annotatedElement="_B2EJwF35EeiwL5tPgFMcjQ">
+            <body>whether the VNF instance is instantiated</body>
+          </ownedComment>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Pjwo0F35EeiwL5tPgFMcjQ" name="oamlpv4Address">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_WAKrkF35EeiwL5tPgFMcjQ" annotatedElement="_Pjwo0F35EeiwL5tPgFMcjQ">
+            <body>oam ip address, ipv4</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_S169IF35EeiwL5tPgFMcjQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_S1_1oF35EeiwL5tPgFMcjQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_s23WgF35EeiwL5tPgFMcjQ" name="oamlpv6Address">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_9wtBcF35EeiwL5tPgFMcjQ" annotatedElement="_s23WgF35EeiwL5tPgFMcjQ">
+            <body>oam ip address, ipv6</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7NWT4F35EeiwL5tPgFMcjQ"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7NbMYF35EeiwL5tPgFMcjQ" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_t2N6sF35EeiwL5tPgFMcjQ" name="instantiatedVnfInfo">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_iXMAsF37Eei-d9bwZwcVEw" annotatedElement="_t2N6sF35EeiwL5tPgFMcjQ">
+            <body>information specific to an instantiated VNF instance, e.g., vm information</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_fS6-cF37Eei-d9bwZwcVEw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fTKPAF37Eei-d9bwZwcVEw" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_u8wsAF35EeiwL5tPgFMcjQ" name="inMaint">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_xP6IcF37Eei-d9bwZwcVEw" annotatedElement="_u8wsAF35EeiwL5tPgFMcjQ">
+            <body>whether the VNF instance is in maintenance mode, if yes, DCAE will not observe alarms/traps, etc.</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tiO80F37Eei-d9bwZwcVEw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_tic_QF37Eei-d9bwZwcVEw" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_wvGzYF35EeiwL5tPgFMcjQ" name="isClosedLoopDisabled">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_AtuhUF38Eei-d9bwZwcVEw" annotatedElement="_wvGzYF35EeiwL5tPgFMcjQ">
+            <body>whether closed loop function is enabled</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9r9ZcF37Eei-d9bwZwcVEw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9sF8UF37Eei-d9bwZwcVEw" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_xjSpYF35EeiwL5tPgFMcjQ" name="encryptedAccessFlag">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_DmT4AF38Eei-d9bwZwcVEw" annotatedElement="_xjSpYF35EeiwL5tPgFMcjQ">
+            <body>whether this VNF is accessed using SSH</body>
+          </ownedComment>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FVaeIF38Eei-d9bwZwcVEw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FVmrYF38Eei-d9bwZwcVEw" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_4zoYkF37Eei-d9bwZwcVEw" name="vnfConfigurableProperty">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_LuL-EF38Eei-d9bwZwcVEw">
+            <body>indicator for whether autoHeal and autoScale is enabled</body>
+          </ownedComment>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OBk9AF38Eei-d9bwZwcVEw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OBrDoF38Eei-d9bwZwcVEw" value="1"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_jU8QIF4AEei-d9bwZwcVEw" name="vnfNamingCode">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_lfpNIF4AEei-d9bwZwcVEw" name="vnfNamingPolicyId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_mlc-oF4AEei-d9bwZwcVEw" name="vnfHomingPolicyId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_pavJsF4AEei-d9bwZwcVEw" name="nfType">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
       </packagedElement>
     </packagedElement>
@@ -2174,35 +2424,35 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <OpenModel_Profile:OpenModelAttribute xmi:id="_h7PhQUKAEeiwbqJBYHKltg" base_StructuralFeature="_h7PhQEKAEeiwbqJBYHKltg"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAETvUNJEeizArvcUMcZaw" base_Property="_h7PhQEKAEeiwbqJBYHKltg"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_ONsE0DaIEei23_xWdimG9w" base_Class="_e5WnwDOREeiHat9KcP8uWA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETvkNJEeizArvcUMcZaw" base_Class="_e5WnwDOREeiHat9KcP8uWA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETvkNJEeizArvcUMcZaw" state="DISCUSSION" base_Class="_e5WnwDOREeiHat9KcP8uWA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_ONsE0TaIEei23_xWdimG9w" base_StructuralFeature="_l8PhgDWbEei9Ia34RXjpEg"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETv0NJEeizArvcUMcZaw" base_Property="_l8PhgDWbEei9Ia34RXjpEg"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETv0NJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_l8PhgDWbEei9Ia34RXjpEg"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_ONsE0jaIEei23_xWdimG9w" base_StructuralFeature="_wWU6wDWbEei9Ia34RXjpEg"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETwENJEeizArvcUMcZaw" base_Property="_wWU6wDWbEei9Ia34RXjpEg"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETwENJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_wWU6wDWbEei9Ia34RXjpEg"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_ONsE0zaIEei23_xWdimG9w" base_StructuralFeature="_2-9boDWbEei9Ia34RXjpEg"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETwUNJEeizArvcUMcZaw" base_Property="_2-9boDWbEei9Ia34RXjpEg"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETwUNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_2-9boDWbEei9Ia34RXjpEg"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_mq0DkTafEei23_xWdimG9w" base_StructuralFeature="_mq0DkDafEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETwkNJEeizArvcUMcZaw" base_Property="_mq0DkDafEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETwkNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_mq0DkDafEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_e8gB4TmxEeiWMf5FLWfdLA" base_StructuralFeature="_e8gB4DmxEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAETw0NJEeizArvcUMcZaw" base_Property="_e8gB4DmxEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_1yYfoDafEei23_xWdimG9w" base_StructuralFeature="_1yX4kDafEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETxENJEeizArvcUMcZaw" base_Property="_1yX4kDafEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETxENJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_1yX4kDafEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_HN-FIDmzEeiWMf5FLWfdLA" base_StructuralFeature="_HN9eEDmzEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETxUNJEeizArvcUMcZaw" base_Property="_HN9eEDmzEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETxUNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_HN9eEDmzEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_mIpmITapEei23_xWdimG9w" base_StructuralFeature="_mIpmIDapEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETxkNJEeizArvcUMcZaw" base_Property="_mIpmIDapEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETxkNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_mIpmIDapEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_mC_G8DmyEeiWMf5FLWfdLA" base_StructuralFeature="_mC-f4DmyEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETx0NJEeizArvcUMcZaw" base_Property="_mC-f4DmyEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETx0NJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_mC-f4DmyEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_ONrdwjaIEei23_xWdimG9w" base_StructuralFeature="_j9-9sDWeEei9Ia34RXjpEg"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETyENJEeizArvcUMcZaw" base_Property="_j9-9sDWeEei9Ia34RXjpEg"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETyENJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_j9-9sDWeEei9Ia34RXjpEg"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_345dATabEei23_xWdimG9w" base_StructuralFeature="_345dADabEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETyUNJEeizArvcUMcZaw" base_Property="_345dADabEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETyUNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_345dADabEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_uwIPwDadEei23_xWdimG9w" base_StructuralFeature="_uwHosDadEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETykNJEeizArvcUMcZaw" base_Property="_uwHosDadEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETykNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_uwHosDadEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_Mx0P0DagEei23_xWdimG9w" base_StructuralFeature="_MxzowjagEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETy0NJEeizArvcUMcZaw" base_Property="_MxzowjagEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETy0NJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_MxzowjagEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_ONsr4DaIEei23_xWdimG9w" base_Class="_aaEZADOREeiHat9KcP8uWA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETzENJEeizArvcUMcZaw" state="CLEAN" base_Class="_aaEZADOREeiHat9KcP8uWA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAETzENJEeizArvcUMcZaw" state="DISCUSSION" base_Class="_aaEZADOREeiHat9KcP8uWA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_ONsr4jaIEei23_xWdimG9w" base_StructuralFeature="_Sz6jIDOVEeiHat9KcP8uWA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAETzUNJEeizArvcUMcZaw" base_Property="_Sz6jIDOVEeiHat9KcP8uWA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_ONsr4zaIEei23_xWdimG9w" base_StructuralFeature="_hUYi8DOVEeiHat9KcP8uWA"/>
@@ -2252,61 +2502,61 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <OpenModel_Profile:OpenModelAttribute xmi:id="_mpkmETkTEeiWMf5FLWfdLA" base_StructuralFeature="_mpkmEDkTEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAET5ENJEeizArvcUMcZaw" base_Property="_mpkmEDkTEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_ONt6BDaIEei23_xWdimG9w" base_Class="_J0Zx0DOSEeiHat9KcP8uWA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAET5UNJEeizArvcUMcZaw" base_Class="_J0Zx0DOSEeiHat9KcP8uWA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAET5UNJEeizArvcUMcZaw" state="DISCUSSION" base_Class="_J0Zx0DOSEeiHat9KcP8uWA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_lDoCUTaqEei23_xWdimG9w" base_StructuralFeature="_lDoCUDaqEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAET5kNJEeizArvcUMcZaw" base_Property="_lDoCUDaqEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAET5kNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_lDoCUDaqEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_v5FwATaqEei23_xWdimG9w" base_StructuralFeature="_v5FwADaqEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAET50NJEeizArvcUMcZaw" base_Property="_v5FwADaqEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAET50NJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_v5FwADaqEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_OYLvsTarEei23_xWdimG9w" base_StructuralFeature="_OYLvsDarEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAET6ENJEeizArvcUMcZaw" base_Property="_OYLvsDarEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAET6ENJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_OYLvsDarEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_WJKYsDarEei23_xWdimG9w" base_StructuralFeature="_WJJxoDarEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAET6UNJEeizArvcUMcZaw" base_Property="_WJJxoDarEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAET6UNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_WJJxoDarEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_bcIHIDarEei23_xWdimG9w" base_StructuralFeature="_bcG5ADarEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAET6kNJEeizArvcUMcZaw" base_Property="_bcG5ADarEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAET6kNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_bcG5ADarEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_k5xtUDarEei23_xWdimG9w" base_StructuralFeature="_k5xGQDarEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAET60NJEeizArvcUMcZaw" base_Property="_k5xGQDarEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAET60NJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_k5xGQDarEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_9W_HATm0EeiWMf5FLWfdLA" base_StructuralFeature="_9W_HADm0EeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAET7ENJEeizArvcUMcZaw" base_Property="_9W_HADm0EeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAET7ENJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_9W_HADm0EeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_svqrgTarEei23_xWdimG9w" base_StructuralFeature="_svqrgDarEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdoENJEeizArvcUMcZaw" base_Property="_svqrgDarEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdoENJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_svqrgDarEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_SW1lEDm1EeiWMf5FLWfdLA" base_StructuralFeature="_SW0-ADm1EeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdoUNJEeizArvcUMcZaw" base_Property="_SW0-ADm1EeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdoUNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_SW0-ADm1EeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_DhvVITasEei23_xWdimG9w" base_StructuralFeature="_DhvVIDasEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdokNJEeizArvcUMcZaw" base_Property="_DhvVIDasEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdokNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_DhvVIDasEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_QAAzsTasEei23_xWdimG9w" base_StructuralFeature="_QAAzsDasEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdo0NJEeizArvcUMcZaw" base_Property="_QAAzsDasEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdo0NJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_QAAzsDasEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_43icQDarEei23_xWdimG9w" base_StructuralFeature="_43h1MDarEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdpENJEeizArvcUMcZaw" base_Property="_43h1MDarEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdpENJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_43h1MDarEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_ONt6BTaIEei23_xWdimG9w" base_Class="_ISONYDOSEeiHat9KcP8uWA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdpUNJEeizArvcUMcZaw" base_Class="_ISONYDOSEeiHat9KcP8uWA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdpUNJEeizArvcUMcZaw" state="DISCUSSION" base_Class="_ISONYDOSEeiHat9KcP8uWA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_aikFATdzEeiIfPeSAqyGdQ" base_StructuralFeature="_aikFADdzEeiIfPeSAqyGdQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdpkNJEeizArvcUMcZaw" base_Property="_aikFADdzEeiIfPeSAqyGdQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdpkNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_aikFADdzEeiIfPeSAqyGdQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_bEqsgTdzEeiIfPeSAqyGdQ" base_StructuralFeature="_bEqsgDdzEeiIfPeSAqyGdQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdp0NJEeizArvcUMcZaw" base_Property="_bEqsgDdzEeiIfPeSAqyGdQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdp0NJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_bEqsgDdzEeiIfPeSAqyGdQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_cCrM4TdzEeiIfPeSAqyGdQ" base_StructuralFeature="_cCrM4DdzEeiIfPeSAqyGdQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdqENJEeizArvcUMcZaw" base_Property="_cCrM4DdzEeiIfPeSAqyGdQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdqENJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_cCrM4DdzEeiIfPeSAqyGdQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_dFetsTdzEeiIfPeSAqyGdQ" base_StructuralFeature="_dFetsDdzEeiIfPeSAqyGdQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdqUNJEeizArvcUMcZaw" base_Property="_dFetsDdzEeiIfPeSAqyGdQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdqUNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_dFetsDdzEeiIfPeSAqyGdQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_dl56MDdzEeiIfPeSAqyGdQ" base_StructuralFeature="_dl5TIDdzEeiIfPeSAqyGdQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdqkNJEeizArvcUMcZaw" base_Property="_dl5TIDdzEeiIfPeSAqyGdQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdqkNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_dl5TIDdzEeiIfPeSAqyGdQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_ehkRMTdzEeiIfPeSAqyGdQ" base_StructuralFeature="_ehkRMDdzEeiIfPeSAqyGdQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdq0NJEeizArvcUMcZaw" base_Property="_ehkRMDdzEeiIfPeSAqyGdQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdq0NJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_ehkRMDdzEeiIfPeSAqyGdQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_fXB5kTdzEeiIfPeSAqyGdQ" base_StructuralFeature="_fXB5kDdzEeiIfPeSAqyGdQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdrENJEeizArvcUMcZaw" base_Property="_fXB5kDdzEeiIfPeSAqyGdQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdrENJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_fXB5kDdzEeiIfPeSAqyGdQ"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_ONuhEDaIEei23_xWdimG9w" base_Class="_-gDvwDOREeiHat9KcP8uWA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdrUNJEeizArvcUMcZaw" base_Class="_-gDvwDOREeiHat9KcP8uWA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdrUNJEeizArvcUMcZaw" state="DISCUSSION" base_Class="_-gDvwDOREeiHat9KcP8uWA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_CEEAwDatEei23_xWdimG9w" base_StructuralFeature="_CEDZsDatEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdrkNJEeizArvcUMcZaw" base_Property="_CEDZsDatEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdrkNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_CEDZsDatEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_Z9PKcTavEei23_xWdimG9w" base_StructuralFeature="_Z9PKcDavEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdr0NJEeizArvcUMcZaw" base_Property="_Z9PKcDavEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdr0NJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_Z9PKcDavEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_S4W1oTazEei23_xWdimG9w" base_StructuralFeature="_S4W1oDazEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdsENJEeizArvcUMcZaw" base_Property="_S4W1oDazEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdsENJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_S4W1oDazEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_cn9ugTazEei23_xWdimG9w" base_StructuralFeature="_cn9ugDazEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdsUNJEeizArvcUMcZaw" base_Property="_cn9ugDazEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdsUNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_cn9ugDazEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_6gNwoDazEei23_xWdimG9w" base_StructuralFeature="_6gNJkDazEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdskNJEeizArvcUMcZaw" base_Property="_6gNJkDazEei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdskNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_6gNJkDazEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_1izJgDa1Eei23_xWdimG9w" base_StructuralFeature="_1iyicDa1Eei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANds0NJEeizArvcUMcZaw" base_Property="_1iyicDa1Eei23_xWdimG9w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANds0NJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_1iyicDa1Eei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_ONuhEjaIEei23_xWdimG9w" base_Class="_K_9mADOSEeiHat9KcP8uWA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nANdtUNJEeizArvcUMcZaw" base_Class="_K_9mADOSEeiHat9KcP8uWA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_4zAhUDdKEeiIfPeSAqyGdQ" base_StructuralFeature="_4y_6QDdKEeiIfPeSAqyGdQ"/>
@@ -2336,17 +2586,17 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <OpenModel_Profile:OpenModelAttribute xmi:id="_oUicYDm-EeiWMf5FLWfdLA" base_StructuralFeature="_oUh1Ujm-EeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nANdw0NJEeizArvcUMcZaw" base_Property="_oUh1Ujm-EeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_ONvIIDaIEei23_xWdimG9w" base_Class="_zOfv8DQVEeixv_sLOod4lQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdxENJEeizArvcUMcZaw" base_Class="_zOfv8DQVEeixv_sLOod4lQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdxENJEeizArvcUMcZaw" state="DISCUSSION" base_Class="_zOfv8DQVEeixv_sLOod4lQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_7nJYsTdREeiIfPeSAqyGdQ" base_StructuralFeature="_7nJYsDdREeiIfPeSAqyGdQ"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nANdxUNJEeizArvcUMcZaw" base_Property="_7nJYsDdREeiIfPeSAqyGdQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_7dX8MTdSEeiIfPeSAqyGdQ" base_StructuralFeature="_7dX8MDdSEeiIfPeSAqyGdQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdxkNJEeizArvcUMcZaw" base_Property="_7dX8MDdSEeiIfPeSAqyGdQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdxkNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_7dX8MDdSEeiIfPeSAqyGdQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_8R7loTdSEeiIfPeSAqyGdQ" base_StructuralFeature="_8R7loDdSEeiIfPeSAqyGdQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdx0NJEeizArvcUMcZaw" base_Property="_8R7loDdSEeiIfPeSAqyGdQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdx0NJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_8R7loDdSEeiIfPeSAqyGdQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_875IoTdSEeiIfPeSAqyGdQ" base_StructuralFeature="_875IoDdSEeiIfPeSAqyGdQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdyENJEeizArvcUMcZaw" base_Property="_875IoDdSEeiIfPeSAqyGdQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdyENJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_875IoDdSEeiIfPeSAqyGdQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_guUEIDm5EeiWMf5FLWfdLA" base_StructuralFeature="_guTdEjm5EeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdyUNJEeizArvcUMcZaw" base_Property="_guTdEjm5EeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nANdyUNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_guTdEjm5EeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_ONvvMTaIEei23_xWdimG9w" base_Class="_p0UVsDQvEeixv_sLOod4lQ"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nANdykNJEeizArvcUMcZaw" base_Class="_p0UVsDQvEeixv_sLOod4lQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_vbvVgTeCEeiIfPeSAqyGdQ" base_StructuralFeature="_vbvVgDeCEeiIfPeSAqyGdQ"/>
@@ -2390,37 +2640,33 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <OpenModel_Profile:OpenModelAttribute xmi:id="_dP31MTg2EeiOYfGHew0BGg" base_StructuralFeature="_dP31MDg2EeiOYfGHew0BGg"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOoUNJEeizArvcUMcZaw" base_Property="_dP31MDg2EeiOYfGHew0BGg"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_7pU0IDa7EeivvI-m1BaAbA" base_Class="_7pUNEDa7EeivvI-m1BaAbA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOokNJEeizArvcUMcZaw" base_Class="_7pUNEDa7EeivvI-m1BaAbA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOokNJEeizArvcUMcZaw" state="DISCUSSION" base_Class="_7pUNEDa7EeivvI-m1BaAbA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_knSmcTa8EeivvI-m1BaAbA" base_StructuralFeature="_knSmcDa8EeivvI-m1BaAbA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOo0NJEeizArvcUMcZaw" base_Property="_knSmcDa8EeivvI-m1BaAbA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOo0NJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_knSmcDa8EeivvI-m1BaAbA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_lRLQ8Ta8EeivvI-m1BaAbA" base_StructuralFeature="_lRLQ8Da8EeivvI-m1BaAbA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOpENJEeizArvcUMcZaw" base_Property="_lRLQ8Da8EeivvI-m1BaAbA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOpENJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_lRLQ8Da8EeivvI-m1BaAbA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_luv9wDa8EeivvI-m1BaAbA" base_StructuralFeature="_luvWsDa8EeivvI-m1BaAbA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOpUNJEeizArvcUMcZaw" base_Property="_luvWsDa8EeivvI-m1BaAbA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOpUNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_luvWsDa8EeivvI-m1BaAbA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_oWHBkTa8EeivvI-m1BaAbA" base_StructuralFeature="_oWHBkDa8EeivvI-m1BaAbA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOpkNJEeizArvcUMcZaw" base_Property="_oWHBkDa8EeivvI-m1BaAbA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOpkNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_oWHBkDa8EeivvI-m1BaAbA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_pJTZETa8EeivvI-m1BaAbA" base_StructuralFeature="_pJTZEDa8EeivvI-m1BaAbA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOp0NJEeizArvcUMcZaw" base_Property="_pJTZEDa8EeivvI-m1BaAbA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOp0NJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_pJTZEDa8EeivvI-m1BaAbA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_p8meQTa8EeivvI-m1BaAbA" base_StructuralFeature="_p8meQDa8EeivvI-m1BaAbA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOqENJEeizArvcUMcZaw" base_Property="_p8meQDa8EeivvI-m1BaAbA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOqENJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_p8meQDa8EeivvI-m1BaAbA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_oFQM8Td-EeiIfPeSAqyGdQ" base_Class="_oFQM8Dd-EeiIfPeSAqyGdQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOqUNJEeizArvcUMcZaw" base_Class="_oFQM8Dd-EeiIfPeSAqyGdQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOqUNJEeizArvcUMcZaw" state="DISCUSSION" base_Class="_oFQM8Dd-EeiIfPeSAqyGdQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_v0nsYTd-EeiIfPeSAqyGdQ" base_StructuralFeature="_v0nsYDd-EeiIfPeSAqyGdQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOqkNJEeizArvcUMcZaw" base_Property="_v0nsYDd-EeiIfPeSAqyGdQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOqkNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_v0nsYDd-EeiIfPeSAqyGdQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_uXG-oDnFEeiWMf5FLWfdLA" base_StructuralFeature="_uXGXkDnFEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOq0NJEeizArvcUMcZaw" base_Property="_uXGXkDnFEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOq0NJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_uXGXkDnFEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_0lwWUDgREeiOYfGHew0BGg" base_Class="_0lvvQDgREeiOYfGHew0BGg"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOrENJEeizArvcUMcZaw" base_Class="_0lvvQDgREeiOYfGHew0BGg"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_eihhATnEEeiWMf5FLWfdLA" base_StructuralFeature="_eihhADnEEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOrUNJEeizArvcUMcZaw" base_Property="_eihhADnEEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_zoRywDnEEeiWMf5FLWfdLA" base_StructuralFeature="_zoP9kDnEEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOrkNJEeizArvcUMcZaw" base_Property="_zoP9kDnEEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOrENJEeizArvcUMcZaw" state="DISCUSSION" base_Class="_0lvvQDgREeiOYfGHew0BGg"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_uA9sQDgUEeiOYfGHew0BGg" base_StructuralFeature="_uA9FMDgUEeiOYfGHew0BGg"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOr0NJEeizArvcUMcZaw" base_Property="_uA9FMDgUEeiOYfGHew0BGg"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOr0NJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_uA9FMDgUEeiOYfGHew0BGg"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_DgtLUTgVEeiOYfGHew0BGg" base_StructuralFeature="_DgtLUDgVEeiOYfGHew0BGg"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOsENJEeizArvcUMcZaw" base_Property="_DgtLUDgVEeiOYfGHew0BGg"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_2_AI0DgVEeiOYfGHew0BGg" base_StructuralFeature="_2-_hwDgVEeiOYfGHew0BGg"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOsUNJEeizArvcUMcZaw" base_Property="_2-_hwDgVEeiOYfGHew0BGg"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOsUNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_2-_hwDgVEeiOYfGHew0BGg"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_s7WyQTgYEeiOYfGHew0BGg" base_StructuralFeature="_s7WyQDgYEeiOYfGHew0BGg"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOskNJEeizArvcUMcZaw" base_Property="_s7WyQDgYEeiOYfGHew0BGg"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_-SvU0DgYEeiOYfGHew0BGg" base_StructuralFeature="_-SutwDgYEeiOYfGHew0BGg"/>
@@ -2430,7 +2676,7 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <OpenModel_Profile:OpenModelAttribute xmi:id="_AApoITgZEeiOYfGHew0BGg" base_StructuralFeature="_AApoIDgZEeiOYfGHew0BGg"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOtUNJEeizArvcUMcZaw" base_Property="_AApoIDgZEeiOYfGHew0BGg"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_BYBDsTgZEeiOYfGHew0BGg" base_StructuralFeature="_BYBDsDgZEeiOYfGHew0BGg"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOtkNJEeizArvcUMcZaw" base_Property="_BYBDsDgZEeiOYfGHew0BGg"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOtkNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_BYBDsDgZEeiOYfGHew0BGg"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_8BU-0Dm4EeiWMf5FLWfdLA" base_Class="_8BUXwDm4EeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOt0NJEeizArvcUMcZaw" base_Class="_8BUXwDm4EeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_H9PXMTm5EeiWMf5FLWfdLA" base_StructuralFeature="_H9PXMDm5EeiWMf5FLWfdLA"/>
@@ -2444,35 +2690,33 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <OpenModel_Profile:OpenModelAttribute xmi:id="_H9Vd0Tm5EeiWMf5FLWfdLA" base_StructuralFeature="_H9Vd0Dm5EeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOvENJEeizArvcUMcZaw" base_Property="_H9Vd0Dm5EeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_6C8s8DnAEeiWMf5FLWfdLA" base_Class="_6C8F4DnAEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOvUNJEeizArvcUMcZaw" base_Class="_6C8F4DnAEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOvUNJEeizArvcUMcZaw" state="DISCUSSION" base_Class="_6C8F4DnAEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_Y6HcIDnGEeiWMf5FLWfdLA" base_StructuralFeature="_Y6Fm8DnGEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOvkNJEeizArvcUMcZaw" base_Property="_Y6Fm8DnGEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOvkNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_Y6Fm8DnGEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_jVi5MDnGEeiWMf5FLWfdLA" base_StructuralFeature="_jViSIDnGEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOv0NJEeizArvcUMcZaw" base_Property="_jViSIDnGEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOv0NJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_jViSIDnGEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_f1tqYDnIEeiWMf5FLWfdLA" base_StructuralFeature="_f1tDUDnIEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOwENJEeizArvcUMcZaw" base_Property="_f1tDUDnIEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOwENJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_f1tDUDnIEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_PJlgwDnHEeiWMf5FLWfdLA" base_StructuralFeature="_PJk5sjnHEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOwUNJEeizArvcUMcZaw" base_Property="_PJk5sjnHEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOwUNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_PJk5sjnHEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_4RtOwEcnEei7eo5RdnNiBQ" base_StructuralFeature="_4RsAoEcnEei7eo5RdnNiBQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_wjx28EdtEei3KMAUV7YMMQ" base_Property="_4RsAoEcnEei7eo5RdnNiBQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_wjx28EdtEei3KMAUV7YMMQ" state="DISCUSSION" base_Property="_4RsAoEcnEei7eo5RdnNiBQ"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_0Ab7cDnBEeiWMf5FLWfdLA" base_Class="_0AbUYDnBEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOwkNJEeizArvcUMcZaw" base_Class="_0AbUYDnBEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOwkNJEeizArvcUMcZaw" state="DISCUSSION" base_Class="_0AbUYDnBEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_6g1tYjnBEeiWMf5FLWfdLA" base_StructuralFeature="_6g1tYDnBEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOw0NJEeizArvcUMcZaw" base_Property="_6g1tYDnBEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOw0NJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_6g1tYDnBEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_6g3ikjnBEeiWMf5FLWfdLA" base_StructuralFeature="_6g3ikDnBEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOxENJEeizArvcUMcZaw" base_Property="_6g3ikDnBEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOxENJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_6g3ikDnBEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_6g5XwDnBEeiWMf5FLWfdLA" base_StructuralFeature="_6g4wsDnBEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOxUNJEeizArvcUMcZaw" base_Property="_6g4wsDnBEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOxUNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_6g4wsDnBEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_DlPQoDnDEeiWMf5FLWfdLA" base_Class="_DlOpkDnDEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOxkNJEeizArvcUMcZaw" base_Class="_DlOpkDnDEeiWMf5FLWfdLA"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_wHc4MUcpEei7eo5RdnNiBQ" base_StructuralFeature="_wHc4MEcpEei7eo5RdnNiBQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_wjyeAEdtEei3KMAUV7YMMQ" base_Property="_wHc4MEcpEei7eo5RdnNiBQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOxkNJEeizArvcUMcZaw" state="DISCUSSION" base_Class="_DlOpkDnDEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_DZsyMTnHEeiWMf5FLWfdLA" base_Class="_DZsyMDnHEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOx0NJEeizArvcUMcZaw" base_Class="_DZsyMDnHEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOx0NJEeizArvcUMcZaw" state="DISCUSSION" base_Class="_DZsyMDnHEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_7vM5wDnIEeiWMf5FLWfdLA" base_StructuralFeature="_7vMSsDnIEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOyENJEeizArvcUMcZaw" base_Property="_7vMSsDnIEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOyENJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_7vMSsDnIEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_Eu4KgDnJEeiWMf5FLWfdLA" base_StructuralFeature="_Eu3jcDnJEeiWMf5FLWfdLA"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOyUNJEeizArvcUMcZaw" base_Property="_Eu3jcDnJEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOyUNJEeizArvcUMcZaw" state="DISCUSSION" base_Property="_Eu3jcDnJEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_IYMf4D0REeiuk5pWzMOpfA" base_Class="_IYL40D0REeiuk5pWzMOpfA"/>
   <OpenModel_Profile:Experimental xmi:id="_VYV60EJTEeiDS9blpN8EJw" base_Element="_IYL40D0REeiuk5pWzMOpfA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAXOykNJEeizArvcUMcZaw" base_Class="_IYL40D0REeiuk5pWzMOpfA"/>
@@ -2608,4 +2852,62 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAgYtENJEeizArvcUMcZaw" base_Property="_KFKIIDnIEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_SHcjkDnIEeiWMf5FLWfdLA" base_StructuralFeature="_SHb8gDnIEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_nAgYtUNJEeizArvcUMcZaw" base_Property="_SHb8gDnIEeiWMf5FLWfdLA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_mchE8FqmEeiTzriVSbKglg" base_Property="_mcgd4FqmEeiTzriVSbKglg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_mchsAFqmEeiTzriVSbKglg" base_StructuralFeature="_mcgd4FqmEeiTzriVSbKglg"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_mci6IFqmEeiTzriVSbKglg" base_Property="_mciTEFqmEeiTzriVSbKglg"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_mci6IVqmEeiTzriVSbKglg" base_StructuralFeature="_mciTEFqmEeiTzriVSbKglg"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_jKtzYF3PEeiwL5tPgFMcjQ" base_Class="_jH_PgF3PEeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_jKtzYV3PEeiwL5tPgFMcjQ" state="DISCUSSION" base_Class="_jH_PgF3PEeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_xJpMYF3PEeiwL5tPgFMcjQ" base_StructuralFeature="_xJolUF3PEeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_xJpzcF3PEeiwL5tPgFMcjQ" base_Property="_xJolUF3PEeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_OD8jEV3REeiwL5tPgFMcjQ" base_StructuralFeature="_OD8jEF3REeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_OD8jEl3REeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_OD8jEF3REeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_W5u3AV3cEeiwL5tPgFMcjQ" base_StructuralFeature="_W5u3AF3cEeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_W5u3Al3cEeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_W5u3AF3cEeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_3sdQwV3dEeiwL5tPgFMcjQ" base_StructuralFeature="_3sdQwF3dEeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_3sd30F3dEeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_3sdQwF3dEeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_xSoLcF3eEeiwL5tPgFMcjQ" base_StructuralFeature="_xSnkYF3eEeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_xSoLcV3eEeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_xSnkYF3eEeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_jsFn0V3fEeiwL5tPgFMcjQ" base_StructuralFeature="_jsFn0F3fEeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_jsGO4F3fEeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_jsFn0F3fEeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_HY63sV3gEeiwL5tPgFMcjQ" base_StructuralFeature="_HY63sF3gEeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_HY63sl3gEeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_HY63sF3gEeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_ANUO0F3vEeiwL5tPgFMcjQ" base_StructuralFeature="_ANTnwF3vEeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_ANUO0V3vEeiwL5tPgFMcjQ" base_Property="_ANTnwF3vEeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_rg2KUV3vEeiwL5tPgFMcjQ" base_StructuralFeature="_rg2KUF3vEeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_rg2xYF3vEeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_rg2KUF3vEeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_D0XjIV3xEeiwL5tPgFMcjQ" base_StructuralFeature="_D0XjIF3xEeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_D0XjIl3xEeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_D0XjIF3xEeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_b9BWcF33EeiwL5tPgFMcjQ" base_StructuralFeature="_b9AvYF33EeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_b9BWcV33EeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_b9AvYF33EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_yX1WoF33EeiwL5tPgFMcjQ" base_StructuralFeature="_yX0vkF33EeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_yX1WoV33EeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_yX0vkF33EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_FBeyUV34EeiwL5tPgFMcjQ" base_StructuralFeature="_FBeyUF34EeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_FBeyUl34EeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_FBeyUF34EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_2BvAEV34EeiwL5tPgFMcjQ" base_StructuralFeature="_2BvAEF34EeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_2BvAEl34EeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_2BvAEF34EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_B2EJwV35EeiwL5tPgFMcjQ" base_StructuralFeature="_B2EJwF35EeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_B2EJwl35EeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_B2EJwF35EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_PjxP4F35EeiwL5tPgFMcjQ" base_StructuralFeature="_Pjwo0F35EeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_PjxP4V35EeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_Pjwo0F35EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_s23WgV35EeiwL5tPgFMcjQ" base_StructuralFeature="_s23WgF35EeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_s239kF35EeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_s23WgF35EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_t2N6sV35EeiwL5tPgFMcjQ" base_StructuralFeature="_t2N6sF35EeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_t2N6sl35EeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_t2N6sF35EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_u8xTEF35EeiwL5tPgFMcjQ" base_StructuralFeature="_u8wsAF35EeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_u8xTEV35EeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_u8wsAF35EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_wvHacF35EeiwL5tPgFMcjQ" base_StructuralFeature="_wvGzYF35EeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_wvHacV35EeiwL5tPgFMcjQ" base_Property="_wvGzYF35EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_xjTQcF35EeiwL5tPgFMcjQ" base_StructuralFeature="_xjSpYF35EeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_xjTQcV35EeiwL5tPgFMcjQ" base_Property="_xjSpYF35EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_4zo_oF37Eei-d9bwZwcVEw" base_StructuralFeature="_4zoYkF37Eei-d9bwZwcVEw"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_4zq00F37Eei-d9bwZwcVEw" base_Property="_4zoYkF37Eei-d9bwZwcVEw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_jU8QIV4AEei-d9bwZwcVEw" base_StructuralFeature="_jU8QIF4AEei-d9bwZwcVEw"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_jU8QIl4AEei-d9bwZwcVEw" base_Property="_jU8QIF4AEei-d9bwZwcVEw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_lfp0MF4AEei-d9bwZwcVEw" base_StructuralFeature="_lfpNIF4AEei-d9bwZwcVEw"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_lfp0MV4AEei-d9bwZwcVEw" base_Property="_lfpNIF4AEei-d9bwZwcVEw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_mlc-oV4AEei-d9bwZwcVEw" base_StructuralFeature="_mlc-oF4AEei-d9bwZwcVEw"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_mlc-ol4AEei-d9bwZwcVEw" base_Property="_mlc-oF4AEei-d9bwZwcVEw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_pavwwF4AEei-d9bwZwcVEw" base_StructuralFeature="_pavJsF4AEei-d9bwZwcVEw"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_pavwwV4AEei-d9bwZwcVEw" base_Property="_pavJsF4AEei-d9bwZwcVEw"/>
 </xmi:XMI>
