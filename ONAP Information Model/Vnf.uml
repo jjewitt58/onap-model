@@ -444,6 +444,7 @@ vnfcInstanceNameAlter - do we need these?</body>
       <ownedComment xmi:type="uml:Comment" xmi:id="_RTntQGTmEeikY4u622M0BQ">
         <body>gold indicates an add or a change</body>
       </ownedComment>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fGjHAGWpEei0R-26H-rY8Q" name="Class15"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MTOHEei5Af8DcjrhIQ" name="Interfaces"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MjOHEei5Af8DcjrhIQ" name="ObjectClasses">
@@ -3176,4 +3177,6 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <Onap_Profile:OnapModelLifecycle xmi:id="_u3ErcGTjEeikY4u622M0BQ" base_Property="_u3BoIGTjEeikY4u622M0BQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_UDmsIWTnEeikY4u622M0BQ" base_StructuralFeature="_UDmsIGTnEeikY4u622M0BQ"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_UDnTMGTnEeikY4u622M0BQ" base_Property="_UDmsIGTnEeikY4u622M0BQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_fGjuEGWpEei0R-26H-rY8Q" base_Class="_fGjHAGWpEei0R-26H-rY8Q"/>
+  <OpenModel_Profile:OpenModelClass xmi:id="_fGkVIGWpEei0R-26H-rY8Q" base_Class="_fGjHAGWpEei0R-26H-rY8Q"/>
 </xmi:XMI>
