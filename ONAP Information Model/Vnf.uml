@@ -379,6 +379,15 @@ NOTE 2: virtualLinkProfile needs to be provided for all VLs that the CPs of the 
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_OX0nwF-GEeiaLPXj8My4aQ" name="nfc (vnfcinstance)" type="_OpdBwF9vEeiaLPXj8My4aQ" association="_OXqPsF-GEeiaLPXj8My4aQ"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_PG0wgGkCEeip9umi7zNprw" name="VnfDeployedUsingVnfd" memberEnd="_PG3MwGkCEeip9umi7zNprw _PG5B8WkCEeip9umi7zNprw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PG2lsGkCEeip9umi7zNprw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PG2lsWkCEeip9umi7zNprw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_PG5B8WkCEeip9umi7zNprw" name="vnfinstance" type="_jH_PgF3PEeiwL5tPgFMcjQ" association="_PG0wgGkCEeip9umi7zNprw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bLRZ0GkCEeip9umi7zNprw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bLdAAGkCEeip9umi7zNprw" value="*"/>
+        </ownedEnd>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MDOHEei5Af8DcjrhIQ" name="Diagrams">
       <ownedComment xmi:type="uml:Comment" xmi:id="_bphG0DTSEeiwQ6KPLHcy4g" annotatedElement="_zPN5MDOHEei5Af8DcjrhIQ">
@@ -444,7 +453,9 @@ vnfcInstanceNameAlter - do we need these?</body>
       <ownedComment xmi:type="uml:Comment" xmi:id="_RTntQGTmEeikY4u622M0BQ">
         <body>gold indicates an add or a change</body>
       </ownedComment>
-      <packagedElement xmi:type="uml:Class" xmi:id="_fGjHAGWpEei0R-26H-rY8Q" name="Class15"/>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_l5tfAGjtEeip9umi7zNprw">
+        <body>add relationship to descriptor</body>
+      </ownedComment>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MTOHEei5Af8DcjrhIQ" name="Interfaces"/>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MjOHEei5Af8DcjrhIQ" name="ObjectClasses">
@@ -1658,21 +1669,13 @@ Diversity - Resources are geo-diverse ( cannot be co-located).&#xD;
           </ownedComment>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_W5u3AF3cEeiwL5tPgFMcjQ" name="vnfInstanceAlterName">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_W5u3AF3cEeiwL5tPgFMcjQ" name="vnfInstanceNameAlt">
           <ownedComment xmi:type="uml:Comment" xmi:id="_hegn4F3dEeiwL5tPgFMcjQ" annotatedElement="_W5u3AF3cEeiwL5tPgFMcjQ">
             <body>alternative name of the VNF instance</body>
           </ownedComment>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Zj3iAF3cEeiwL5tPgFMcjQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZkFkcF3cEeiwL5tPgFMcjQ" value="1"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_3sdQwF3dEeiwL5tPgFMcjQ" name="vnfInstanceNamingCode">
-          <ownedComment xmi:type="uml:Comment" xmi:id="__b7d4F3dEeiwL5tPgFMcjQ" annotatedElement="_3sdQwF3dEeiwL5tPgFMcjQ">
-            <body>short code of the VNF instance</body>
-          </ownedComment>
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6ekzEF3dEeiwL5tPgFMcjQ"/>
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6esH0F3dEeiwL5tPgFMcjQ" value="1"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_xSnkYF3eEeiwL5tPgFMcjQ" name="vnfProductName">
           <ownedComment xmi:type="uml:Comment" xmi:id="_5gjPIF3eEeiwL5tPgFMcjQ" annotatedElement="_xSnkYF3eEeiwL5tPgFMcjQ">
@@ -1794,7 +1797,7 @@ Diversity - Resources are geo-diverse ( cannot be co-located).&#xD;
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OBk9AF38Eei-d9bwZwcVEw"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OBrDoF38Eei-d9bwZwcVEw" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_jU8QIF4AEei-d9bwZwcVEw" name="vnfNamingCode">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_jU8QIF4AEei-d9bwZwcVEw" name="nfNamingCode">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_lfpNIF4AEei-d9bwZwcVEw" name="vnfNamingPolicyId">
@@ -1812,12 +1815,15 @@ Diversity - Resources are geo-diverse ( cannot be co-located).&#xD;
         <ownedAttribute xmi:type="uml:Property" xmi:id="_yk6-EF7AEeirAtMhXaZZ3A" name="nfRole">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_zU9T4F7AEeirAtMhXaZZ3A" name="closedLoopStatus"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_zU9T4F7AEeirAtMhXaZZ3A" name="closedLoopStatus" type="_DK1hoGjsEeip9umi7zNprw"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_HAitoF-FEeiaLPXj8My4aQ" name="_nfc (vnfcinstance)" type="_OpdBwF9vEeiaLPXj8My4aQ" aggregation="composite" association="_HAfqUF-FEeiaLPXj8My4aQ">
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_HAjUsV-FEeiaLPXj8My4aQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_HAjUsl-FEeiaLPXj8My4aQ" value="*"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_u3BoIGTjEeikY4u622M0BQ" name="closedLoopStatus"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_PG3MwGkCEeip9umi7zNprw" name="vnfd" type="_aaEZADOREeiHat9KcP8uWA" association="_PG0wgGkCEeip9umi7zNprw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PG4a4GkCEeip9umi7zNprw" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PG5B8GkCEeip9umi7zNprw" value="1"/>
+        </ownedAttribute>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_B2hDUF-GEeiaLPXj8My4aQ" name="VnfcCp"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_OpdBwF9vEeiaLPXj8My4aQ" name="VNfc (VnfcInstance)">
@@ -1844,7 +1850,7 @@ Diversity - Resources are geo-diverse ( cannot be co-located).&#xD;
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_V5E0sF9wEeiaLPXj8My4aQ"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_V5K7UF9wEeiaLPXj8My4aQ" value="1"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_gjdwQF9vEeiaLPXj8My4aQ" name="vudId">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_gjdwQF9vEeiaLPXj8My4aQ" name="vdudId">
           <ownedComment xmi:type="uml:Comment" xmi:id="_AsnqwF-AEeiaLPXj8My4aQ" annotatedElement="_gjdwQF9vEeiaLPXj8My4aQ">
             <body>identifier of the model of the NFC instance</body>
           </ownedComment>
@@ -1914,8 +1920,7 @@ Diversity - Resources are geo-diverse ( cannot be co-located).&#xD;
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_oQAKwGN4Eeio9amveq0yWQ" name="operationalStatus"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_2Ykn8GN4Eeio9amveq0yWQ" name="instantiationState"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_WbPTMGN5Eeio9amveq0yWQ" name="closedLoopStatus"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_UDmsIGTnEeikY4u622M0BQ" name="ClosedLoopStatus"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_WbPTMGN5Eeio9amveq0yWQ" name="closedLoopStatus" type="_DK1hoGjsEeip9umi7zNprw"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MzOHEei5Af8DcjrhIQ" name="TypeDefinitions">
@@ -2507,6 +2512,10 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
           <body>The VirtualLinkBitRateLevel information element specifies bitrate requirements applicable to a virtual link instantiated from a particular VnfVirtualLinkDesc.</body>
         </ownedComment>
       </packagedElement>
+      <packagedElement xmi:type="uml:Enumeration" xmi:id="_DK1hoGjsEeip9umi7zNprw" name="closedLoopStatus">
+        <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_J4maIGjsEeip9umi7zNprw" name="Enabled"/>
+        <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_L1m5YGjsEeip9umi7zNprw" name="Disabled"/>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_0Mc-4D2KEeiFiY3bcpqGkg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0MgpQD2KEeiFiY3bcpqGkg" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -3075,10 +3084,8 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <Onap_Profile:OnapModelLifecycle xmi:id="_OD8jEl3REeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_OD8jEF3REeiwL5tPgFMcjQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_W5u3AV3cEeiwL5tPgFMcjQ" base_StructuralFeature="_W5u3AF3cEeiwL5tPgFMcjQ"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_W5u3Al3cEeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_W5u3AF3cEeiwL5tPgFMcjQ"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_3sdQwV3dEeiwL5tPgFMcjQ" base_StructuralFeature="_3sdQwF3dEeiwL5tPgFMcjQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_3sd30F3dEeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_3sdQwF3dEeiwL5tPgFMcjQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_xSoLcF3eEeiwL5tPgFMcjQ" base_StructuralFeature="_xSnkYF3eEeiwL5tPgFMcjQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_xSoLcV3eEeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_xSnkYF3eEeiwL5tPgFMcjQ"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_xSoLcV3eEeiwL5tPgFMcjQ" base_Property="_xSnkYF3eEeiwL5tPgFMcjQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_jsFn0V3fEeiwL5tPgFMcjQ" base_StructuralFeature="_jsFn0F3fEeiwL5tPgFMcjQ"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_jsGO4F3fEeiwL5tPgFMcjQ" state="DISCUSSION" base_Property="_jsFn0F3fEeiwL5tPgFMcjQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_HY63sV3gEeiwL5tPgFMcjQ" base_StructuralFeature="_HY63sF3gEeiwL5tPgFMcjQ"/>
@@ -3173,10 +3180,31 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <OpenModel_Profile:OpenModelAttribute xmi:id="_2YlPAGN4Eeio9amveq0yWQ" base_StructuralFeature="_2Ykn8GN4Eeio9amveq0yWQ"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_WbPTMWN5Eeio9amveq0yWQ" base_Property="_WbPTMGN5Eeio9amveq0yWQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_WbP6QGN5Eeio9amveq0yWQ" base_StructuralFeature="_WbPTMGN5Eeio9amveq0yWQ"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_u3C2QGTjEeikY4u622M0BQ" base_StructuralFeature="_u3BoIGTjEeikY4u622M0BQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_u3ErcGTjEeikY4u622M0BQ" base_Property="_u3BoIGTjEeikY4u622M0BQ"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_UDmsIWTnEeikY4u622M0BQ" base_StructuralFeature="_UDmsIGTnEeikY4u622M0BQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_UDnTMGTnEeikY4u622M0BQ" base_Property="_UDmsIGTnEeikY4u622M0BQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_fGjuEGWpEei0R-26H-rY8Q" base_Class="_fGjHAGWpEei0R-26H-rY8Q"/>
-  <OpenModel_Profile:OpenModelClass xmi:id="_fGkVIGWpEei0R-26H-rY8Q" base_Class="_fGjHAGWpEei0R-26H-rY8Q"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_fZYmoGWtEei0R-26H-rY8Q"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_vahY0GjrEeip9umi7zNprw"/>
+  <OpenModel_Profile:Faulty xmi:id="_22ZWsGj6Eeip9umi7zNprw" base_Element="_xSnkYF3eEeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_qJoTsGj7Eeip9umi7zNprw" base_Element="_jsFn0F3fEeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_tbuWkGj7Eeip9umi7zNprw" base_Element="_HY63sF3gEeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_weXBIGj7Eeip9umi7zNprw" base_Element="_rg2KUF3vEeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_055YUGj7Eeip9umi7zNprw" base_Element="_D0XjIF3xEeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_3m4jAGj7Eeip9umi7zNprw" base_Element="_yX0vkF33EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_BcsKgGj8Eeip9umi7zNprw" base_Element="_Pjwo0F35EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_Q1oN8Gj9Eeip9umi7zNprw" base_Element="_s23WgF35EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_TmWCEGj9Eeip9umi7zNprw" base_Element="_t2N6sF35EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_WEth8Gj9Eeip9umi7zNprw" base_Element="_u8wsAF35EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_ZTAC4Gj9Eeip9umi7zNprw" base_Element="_wvGzYF35EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_b7z4MGj9Eeip9umi7zNprw" base_Element="_xjSpYF35EeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_VQxcMGkAEeip9umi7zNprw" base_Element="_4zoYkF37Eei-d9bwZwcVEw"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_PG3z0GkCEeip9umi7zNprw" base_Property="_PG3MwGkCEeip9umi7zNprw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_PG3z0WkCEeip9umi7zNprw" base_StructuralFeature="_PG3MwGkCEeip9umi7zNprw"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_PG5B8mkCEeip9umi7zNprw" base_Property="_PG5B8WkCEeip9umi7zNprw"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_PG5B82kCEeip9umi7zNprw" base_StructuralFeature="_PG5B8WkCEeip9umi7zNprw"/>
+  <OpenModel_Profile:Faulty xmi:id="_oyJ0UGkEEeip9umi7zNprw" base_Element="_ANTnwF3vEeiwL5tPgFMcjQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_vTqkEGkFEeip9umi7zNprw" base_Element="_fpzkYF9vEeiaLPXj8My4aQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_yOevYGkFEeip9umi7zNprw" base_Element="_gjdwQF9vEeiaLPXj8My4aQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_1AiAQGkFEeip9umi7zNprw" base_Element="_lCv_AF9vEeiaLPXj8My4aQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_I9RbgGkGEeip9umi7zNprw" base_Element="_mDlw8F9vEeiaLPXj8My4aQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_OWNPEGkGEeip9umi7zNprw" base_Element="_m9TAIF9vEeiaLPXj8My4aQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_UW0GoGkGEeip9umi7zNprw" base_Element="_utZfYF9vEeiaLPXj8My4aQ"/>
+  <OpenModel_Profile:Faulty xmi:id="_XJ-KwGkGEeip9umi7zNprw" base_Element="_vnd68F9vEeiaLPXj8My4aQ"/>
 </xmi:XMI>
