@@ -2554,11 +2554,17 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
         <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_L1m5YGjsEeip9umi7zNprw" name="Disabled"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Enumeration" xmi:id="_aYK0IHPSEeiuFfjlON-CuQ" name="ProvStatus">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_Ij2twHVuEeityfM-lkDl2Q" annotatedElement="_aYK0IHPSEeiuFfjlON-CuQ">
+          <body>Provisioning status, used as a trigger for operational monitoring of this resource by service assurance systems.</body>
+        </ownedComment>
         <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_kxfYYHPSEeiuFfjlON-CuQ" name="PROVISIONED"/>
         <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_nDl94HPSEeiuFfjlON-CuQ" name="PREPROVISIONED"/>
         <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_okbegHPSEeiuFfjlON-CuQ" name="CAPPED"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Enumeration" xmi:id="_JqA_UHPTEeiuFfjlON-CuQ" name="OperationalStatus">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_dtARwHVuEeityfM-lkDl2Q" annotatedElement="_JqA_UHPTEeiuFfjlON-CuQ">
+          <body>Indicator for whether the resource is considered operational. Valid values are in-service-path and out-of-service-path.</body>
+        </ownedComment>
         <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_QPdCQHPTEeiuFfjlON-CuQ" name="in-service-path"/>
         <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_TkXIkHPTEeiuFfjlON-CuQ" name="ot-of-service-path"/>
       </packagedElement>
@@ -3226,8 +3232,6 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <OpenModel_Profile:OpenModelAttribute xmi:id="_2YlPAGN4Eeio9amveq0yWQ" base_StructuralFeature="_2Ykn8GN4Eeio9amveq0yWQ"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_WbPTMWN5Eeio9amveq0yWQ" base_Property="_WbPTMGN5Eeio9amveq0yWQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_WbP6QGN5Eeio9amveq0yWQ" base_StructuralFeature="_WbPTMGN5Eeio9amveq0yWQ"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_fZYmoGWtEei0R-26H-rY8Q"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_vahY0GjrEeip9umi7zNprw"/>
   <OpenModel_Profile:Faulty xmi:id="_22ZWsGj6Eeip9umi7zNprw" base_Element="_xSnkYF3eEeiwL5tPgFMcjQ"/>
   <OpenModel_Profile:Faulty xmi:id="_qJoTsGj7Eeip9umi7zNprw" base_Element="_jsFn0F3fEeiwL5tPgFMcjQ"/>
   <OpenModel_Profile:Faulty xmi:id="_tbuWkGj7Eeip9umi7zNprw" base_Element="_HY63sF3gEeiwL5tPgFMcjQ"/>

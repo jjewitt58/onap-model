@@ -5982,7 +5982,7 @@
           <element xmi:type="uml:Property" href="Vnf.uml#_2BvAEF34EeiwL5tPgFMcjQ"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_2LtbcV34EeiwL5tPgFMcjQ"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_B_2X4F35EeiwL5tPgFMcjQ" type="Property_ClassAttributeLabel">
+        <children xmi:type="notation:Shape" xmi:id="_B_2X4F35EeiwL5tPgFMcjQ" type="Property_ClassAttributeLabel" fontColor="4259584">
           <children xmi:type="notation:DecorationNode" xmi:id="_B_5bMF35EeiwL5tPgFMcjQ" visible="false" type="StereotypeLabel">
             <styles xmi:type="notation:StringValueStyle" xmi:id="_B_5bMV35EeiwL5tPgFMcjQ" name="stereotype" stringValue="OpenModel_Profile::OpenModelAttribute"/>
             <element xmi:type="uml:Stereotype" href="OpenModel_Profile.profile.uml#_36ZCQHBgEd6FKu9XX1078A"/>
