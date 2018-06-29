@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_a5YyYEMgEeisT-sjhttBCA" name="Onap_Profile" metaclassReference="_vJy7EEMhEeisT-sjhttBCA _SIgO8ENJEeizArvcUMcZaw _XLirAENJEeizArvcUMcZaw">
   <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8mslEEMhEeisT-sjhttBCA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_O8WqIHu_EeiiR5bcbqvgpQ" name="Onap_Profile" nsURI="http:///schemas/Onap_Profile/_O8WDEHu_EeiiR5bcbqvgpQ/2" nsPrefix="Onap_Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O8YfUHu_EeiiR5bcbqvgpQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O8YfUXu_EeiiR5bcbqvgpQ" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O8YfUnu_EeiiR5bcbqvgpQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O8YfU3u_EeiiR5bcbqvgpQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O8YfVHu_EeiiR5bcbqvgpQ" key="Date" value="2018-06-29"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O8YfVXu_EeiiR5bcbqvgpQ" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_O8WqIXu_EeiiR5bcbqvgpQ" name="OnapModelLifecycle">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O8WqInu_EeiiR5bcbqvgpQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_lXkBcEMgEeisT-sjhttBCA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_O8WqI3u_EeiiR5bcbqvgpQ" name="state" ordered="false" lowerBound="1" eType="_O8WqKXu_EeiiR5bcbqvgpQ" defaultValueLiteral="INPUT"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_O8WqJXu_EeiiR5bcbqvgpQ" name="base_Class" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Class"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_O8WqJ3u_EeiiR5bcbqvgpQ" name="base_Property" ordered="false">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_O8WqKXu_EeiiR5bcbqvgpQ" name="LifecycleState">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O8XRMHu_EeiiR5bcbqvgpQ" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7LoKsEMgEeisT-sjhttBCA"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_O8XRMXu_EeiiR5bcbqvgpQ" name="INPUT"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_O8XRMnu_EeiiR5bcbqvgpQ" name="DISCUSSION" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_O8XRM3u_EeiiR5bcbqvgpQ" name="CLEAN" value="2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_O8XRNHu_EeiiR5bcbqvgpQ" name="APPROVED" value="3"/>
+      </eClassifiers>
+    </contents>
     <contents xmi:type="ecore:EPackage" xmi:id="_gE-J0ENJEeizArvcUMcZaw" name="Onap_Profile" nsURI="http:///schemas/Onap_Profile/_gEeakENJEeizArvcUMcZaw/1" nsPrefix="Onap_Profile">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gFKXEENJEeizArvcUMcZaw" source="PapyrusVersion">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gFKXEUNJEeizArvcUMcZaw" key="Version" value="0.0.2"/>
@@ -77,13 +103,17 @@
       <ownedComment xmi:type="uml:Comment" xmi:id="_jz7PAEMhEeisT-sjhttBCA" annotatedElement="_dY7hgEMhEeisT-sjhttBCA">
         <body>This is the current model development state of the element.</body>
       </ownedComment>
-      <defaultValue xmi:type="uml:InstanceValue" xmi:id="_revloEMhEeisT-sjhttBCA" name="INPUT" instance="_EMLlMEMhEeisT-sjhttBCA"/>
+      <defaultValue xmi:type="uml:InstanceValue" xmi:id="_revloEMhEeisT-sjhttBCA" name="INPUT" type="_7LoKsEMgEeisT-sjhttBCA" instance="_EMLlMEMhEeisT-sjhttBCA"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_bok3AUNJEeizArvcUMcZaw" name="base_Class" association="_boILEENJEeizArvcUMcZaw">
       <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Class"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_I8ARQHu_EeiiR5bcbqvgpQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_I8VocHu_EeiiR5bcbqvgpQ" value="1"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_ccwtAkNJEeizArvcUMcZaw" name="base_Property" association="_ccwtAENJEeizArvcUMcZaw">
       <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Property"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KfMiUHu_EeiiR5bcbqvgpQ"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Kfby4Hu_EeiiR5bcbqvgpQ" value="1"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Enumeration" xmi:id="_7LoKsEMgEeisT-sjhttBCA" name="LifecycleState">
