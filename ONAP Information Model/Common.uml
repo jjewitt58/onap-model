@@ -53,6 +53,16 @@ Note: the description of this class are different in ETSI GS NFV IFA 011 and ETS
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vWIFwES0EeiVGPeZpaYNtQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vWRPsES0EeiVGPeZpaYNtQ" value="*"/>
         </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CISkgIOQEeivtfz_CvwDeA" name="Property3"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_DYK4AIOQEeivtfz_CvwDeA" name="Property4"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ECr0oIOQEeivtfz_CvwDeA" name="Property5"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Fpc-IIOQEeivtfz_CvwDeA" name="Property6"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_KS51gIOQEeivtfz_CvwDeA" name="Property7"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_LMkBYIOQEeivtfz_CvwDeA" name="Property8"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_LuAhkIOQEeivtfz_CvwDeA" name="Property9"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NRP18IOQEeivtfz_CvwDeA" name="Property10"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_OGn-wIOQEeivtfz_CvwDeA" name="Property11"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Oui6YIOQEeivtfz_CvwDeA" name="Property12"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_il0cAES0EeiVGPeZpaYNtQ" name="LinkPort" isAbstract="true">
         <ownedComment xmi:type="uml:Comment" xmi:id="_nXXfcES0EeiVGPeZpaYNtQ" annotatedElement="_il0cAES0EeiVGPeZpaYNtQ">
@@ -854,4 +864,24 @@ NOTE:	The present document does not specify the means to declare different bitra
   <OpenModel_Profile:OpenModelAttribute xmi:id="_omQ1wYFgEeieQ4zKGFzYtQ" base_StructuralFeature="_omQOsIFgEeieQ4zKGFzYtQ"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_piNgoYFgEeieQ4zKGFzYtQ" base_Property="_piNgoIFgEeieQ4zKGFzYtQ"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_piNgooFgEeieQ4zKGFzYtQ" base_StructuralFeature="_piNgoIFgEeieQ4zKGFzYtQ"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_CITLkIOQEeivtfz_CvwDeA" base_StructuralFeature="_CISkgIOQEeivtfz_CvwDeA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_CITyoIOQEeivtfz_CvwDeA" base_Property="_CISkgIOQEeivtfz_CvwDeA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_DYK4AYOQEeivtfz_CvwDeA" base_StructuralFeature="_DYK4AIOQEeivtfz_CvwDeA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_DYK4AoOQEeivtfz_CvwDeA" base_Property="_DYK4AIOQEeivtfz_CvwDeA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_ECr0oYOQEeivtfz_CvwDeA" base_StructuralFeature="_ECr0oIOQEeivtfz_CvwDeA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_ECsbsIOQEeivtfz_CvwDeA" base_Property="_ECr0oIOQEeivtfz_CvwDeA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Fpc-IYOQEeivtfz_CvwDeA" base_StructuralFeature="_Fpc-IIOQEeivtfz_CvwDeA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_Fpc-IoOQEeivtfz_CvwDeA" base_Property="_Fpc-IIOQEeivtfz_CvwDeA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_KS51gYOQEeivtfz_CvwDeA" base_StructuralFeature="_KS51gIOQEeivtfz_CvwDeA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_KS6ckIOQEeivtfz_CvwDeA" base_Property="_KS51gIOQEeivtfz_CvwDeA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_LMkBYYOQEeivtfz_CvwDeA" base_StructuralFeature="_LMkBYIOQEeivtfz_CvwDeA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_LMkocIOQEeivtfz_CvwDeA" base_Property="_LMkBYIOQEeivtfz_CvwDeA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_LuBIoIOQEeivtfz_CvwDeA" base_StructuralFeature="_LuAhkIOQEeivtfz_CvwDeA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_LuBIoYOQEeivtfz_CvwDeA" base_Property="_LuAhkIOQEeivtfz_CvwDeA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_NRP18YOQEeivtfz_CvwDeA" base_StructuralFeature="_NRP18IOQEeivtfz_CvwDeA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_NRP18oOQEeivtfz_CvwDeA" base_Property="_NRP18IOQEeivtfz_CvwDeA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_OGol0IOQEeivtfz_CvwDeA" base_StructuralFeature="_OGn-wIOQEeivtfz_CvwDeA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_OGol0YOQEeivtfz_CvwDeA" base_Property="_OGn-wIOQEeivtfz_CvwDeA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_Oui6YYOQEeivtfz_CvwDeA" base_StructuralFeature="_Oui6YIOQEeivtfz_CvwDeA"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_OujhcIOQEeivtfz_CvwDeA" base_Property="_Oui6YIOQEeivtfz_CvwDeA"/>
 </xmi:XMI>
