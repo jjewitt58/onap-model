@@ -482,10 +482,6 @@ NOTE: If no boot order is defined the default boot order defined in the VIM or N
           <type xmi:type="uml:DataType" href="Common.uml#_vxJ9ADafEei23_xWdimG9w"/>
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9IXOsDafEei23_xWdimG9w"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9IcuQDafEei23_xWdimG9w" value="*"/>
-          <qualifier xmi:type="uml:Property" xmi:id="_e8gB4DmxEeiWMf5FLWfdLA" name="monitoringParameter" visibility="public" type="_HlF2kDmxEeiWMf5FLWfdLA">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kjhUwDmxEeiWMf5FLWfdLA"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kj8ykDmxEeiWMf5FLWfdLA" value="*"/>
-          </qualifier>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_1yX4kDafEei23_xWdimG9w" name="nfviConstraint">
           <ownedComment xmi:type="uml:Comment" xmi:id="_NkiQwDahEei23_xWdimG9w" annotatedElement="_1yX4kDafEei23_xWdimG9w">
@@ -1420,7 +1416,6 @@ NOTE: Each identifier references an affinity or anti-affinity group which expres
         <ownedComment xmi:type="uml:Comment" xmi:id="_DIyJsDm5EeiWMf5FLWfdLA" annotatedElement="_8BUXwDm4EeiWMf5FLWfdLA">
           <body>This class specifies requirements on a virtual network interface.</body>
         </ownedComment>
-        <ownedTemplateSignature xmi:type="uml:RedefinableTemplateSignature" xmi:id="_H9OJEDm5EeiWMf5FLWfdLA" name="RedefinableTemplateSignature6"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_H9PXMDm5EeiWMf5FLWfdLA" name="name">
           <ownedComment xmi:type="uml:Comment" xmi:id="_rghVsEbvEei7eo5RdnNiBQ" annotatedElement="_H9PXMDm5EeiWMf5FLWfdLA">
             <body>Provides a human readable name for the requirement.&#xD;
@@ -1620,6 +1615,7 @@ Diversity - Resources are geo-diverse ( cannot be co-located).&#xD;
         <generalization xmi:type="uml:Generalization" xmi:id="_3Dbg8ES6EeiVGPeZpaYNtQ">
           <general xmi:type="uml:Class" href="Common.uml#_8naVoES0EeiVGPeZpaYNtQ"/>
         </generalization>
+        <generalization xmi:type="uml:Generalization" xmi:id="_hHsFoIXlEei3S_qasA4xqA" general="_Kdr2cH7gEeifJIHxnlj6Cg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_Io3nQESzEeiVGPeZpaYNtQ" name="Vnf">
         <ownedComment xmi:type="uml:Comment" xmi:id="_g9jTIESzEeiVGPeZpaYNtQ" annotatedElement="_Io3nQESzEeiVGPeZpaYNtQ">
@@ -1842,8 +1838,11 @@ Diversity - Resources are geo-diverse ( cannot be co-located).&#xD;
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_B2hDUF-GEeiaLPXj8My4aQ" name="VnfcCp">
         <generalization xmi:type="uml:Generalization" xmi:id="_NomTQH7gEeifJIHxnlj6Cg" general="_Kdr2cH7gEeifJIHxnlj6Cg"/>
+        <generalization xmi:type="uml:Generalization" xmi:id="_y4l5UIUSEeiRGZJrXkgR0w">
+          <general xmi:type="uml:Class" href="Common.uml#_8naVoES0EeiVGPeZpaYNtQ"/>
+        </generalization>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_OpdBwF9vEeiaLPXj8My4aQ" name="Vnfc (VnfcInstance)">
+      <packagedElement xmi:type="uml:Class" xmi:id="_OpdBwF9vEeiaLPXj8My4aQ" name="VnfcInstance">
         <ownedComment xmi:type="uml:Comment" xmi:id="_RCJ2AGN2Eeio9amveq0yWQ" annotatedElement="_OpdBwF9vEeiaLPXj8My4aQ">
           <body>An internal component of a VNF providing a VNF Provider a defined sub-set of that VNF's functionality, with the main characteristic that a single instance of this component maps 1:1 against a single Virtualisation Container.</body>
         </ownedComment>
@@ -1974,11 +1973,12 @@ Diversity - Resources are geo-diverse ( cannot be co-located).&#xD;
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_taO0cGmNEeiIM-XECFR2Pw" value="1"/>
         </ownedAttribute>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_TuRYYH7dEei4v5WRHqfM1Q" name="VnfVirtualLink"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TuRYYH7dEei4v5WRHqfM1Q" name="VnfVirtualLink">
+        <generalization xmi:type="uml:Generalization" xmi:id="_Fsnq8IUREeiRGZJrXkgR0w">
+          <general xmi:type="uml:Class" href="Common.uml#_Tw5PIES0EeiVGPeZpaYNtQ"/>
+        </generalization>
+      </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_Kdr2cH7gEeifJIHxnlj6Cg" name="Cp"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_PsFN8H7gEeifJIHxnlj6Cg" name="VnfExtCp">
-      <generalization xmi:type="uml:Generalization" xmi:id="_S656YH7gEeifJIHxnlj6Cg" general="_Kdr2cH7gEeifJIHxnlj6Cg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_zPN5MzOHEei5Af8DcjrhIQ" name="TypeDefinitions">
       <packagedElement xmi:type="uml:DataType" xmi:id="_lp6e4DatEei23_xWdimG9w" name="LogicalNodeData ">
@@ -2595,6 +2595,19 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="OpenModel_Profile.profile.uml#_m1xqsHBgEd6FKu9XX1078A"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xwB4QIXiEei3S_qasA4xqA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xxMV4IXiEei3S_qasA4xqA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xxMV4YXiEei3S_qasA4xqA" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xxMV4oXiEei3S_qasA4xqA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xxMV44XiEei3S_qasA4xqA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xxMV5IXiEei3S_qasA4xqA" key="Date" value="2018-06-29"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xxMV5YXiEei3S_qasA4xqA" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xwEUgIXiEei3S_qasA4xqA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="Onap_Profile.profile.uml#_O8WqIHu_EeiiR5bcbqvgpQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="Onap_Profile.profile.uml#_a5YyYEMgEeisT-sjhttBCA"/>
+    </profileApplication>
   </uml:Package>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_ONpBgzaIEei23_xWdimG9w" base_StructuralFeature="_u3j0EDOVEeiHat9KcP8uWA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_ONpokTaIEei23_xWdimG9w" base_StructuralFeature="_vRy4kDQPEeixv_sLOod4lQ"/>
@@ -2653,7 +2666,6 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <OpenModel_Profile:OpenModelAttribute xmi:id="_ONsE0jaIEei23_xWdimG9w" base_StructuralFeature="_wWU6wDWbEei9Ia34RXjpEg"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_ONsE0zaIEei23_xWdimG9w" base_StructuralFeature="_2-9boDWbEei9Ia34RXjpEg"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_mq0DkTafEei23_xWdimG9w" base_StructuralFeature="_mq0DkDafEei23_xWdimG9w"/>
-  <OpenModel_Profile:OpenModelAttribute xmi:id="_e8gB4TmxEeiWMf5FLWfdLA" base_StructuralFeature="_e8gB4DmxEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_1yYfoDafEei23_xWdimG9w" base_StructuralFeature="_1yX4kDafEei23_xWdimG9w"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_HN-FIDmzEeiWMf5FLWfdLA" base_StructuralFeature="_HN9eEDmzEeiWMf5FLWfdLA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_mIpmITapEei23_xWdimG9w" base_StructuralFeature="_mIpmIDapEei23_xWdimG9w"/>
@@ -3001,7 +3013,6 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <Onap_Profile:OnapModelLifecycle xmi:id="_bkB8UXu_EeiiR5bcbqvgpQ" base_Property="_wWU6wDWbEei9Ia34RXjpEg"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_bkCjYHu_EeiiR5bcbqvgpQ" base_Property="_2-9boDWbEei9Ia34RXjpEg"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_bkCjYXu_EeiiR5bcbqvgpQ" base_Property="_mq0DkDafEei23_xWdimG9w"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_bkCjYnu_EeiiR5bcbqvgpQ" base_Property="_e8gB4DmxEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_bkDKcHu_EeiiR5bcbqvgpQ" base_Property="_1yX4kDafEei23_xWdimG9w"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_bkDKcXu_EeiiR5bcbqvgpQ" base_Property="_HN9eEDmzEeiWMf5FLWfdLA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_bkDKcnu_EeiiR5bcbqvgpQ" base_Property="_mIpmIDapEei23_xWdimG9w"/>
@@ -3278,6 +3289,5 @@ NOTE: The MANO or NFVI may not support the recommended collectionPeriod based on
   <Onap_Profile:OnapModelLifecycle xmi:id="_inQwdH7eEei4v5WRHqfM1Q" base_Property="_inQwcn7eEei4v5WRHqfM1Q"/>
   <OpenModel_Profile:OpenModelClass xmi:id="_KdsdgH7gEeifJIHxnlj6Cg" base_Class="_Kdr2cH7gEeifJIHxnlj6Cg"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_KduSsH7gEeifJIHxnlj6Cg" base_Class="_Kdr2cH7gEeifJIHxnlj6Cg"/>
-  <OpenModel_Profile:OpenModelClass xmi:id="_PsFN8X7gEeifJIHxnlj6Cg" base_Class="_PsFN8H7gEeifJIHxnlj6Cg"/>
-  <Onap_Profile:OnapModelLifecycle xmi:id="_PsF1AH7gEeifJIHxnlj6Cg" base_Class="_PsFN8H7gEeifJIHxnlj6Cg"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_XoIjsIOwEeivtfz_CvwDeA"/>
 </xmi:XMI>

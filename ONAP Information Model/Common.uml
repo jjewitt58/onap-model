@@ -53,16 +53,49 @@ Note: the description of this class are different in ETSI GS NFV IFA 011 and ETS
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_vWIFwES0EeiVGPeZpaYNtQ" value="1"/>
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vWRPsES0EeiVGPeZpaYNtQ" value="*"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_CISkgIOQEeivtfz_CvwDeA" name="Property3"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_DYK4AIOQEeivtfz_CvwDeA" name="Property4"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_ECr0oIOQEeivtfz_CvwDeA" name="Property5"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_Fpc-IIOQEeivtfz_CvwDeA" name="Property6"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_KS51gIOQEeivtfz_CvwDeA" name="Property7"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_LMkBYIOQEeivtfz_CvwDeA" name="Property8"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_LuAhkIOQEeivtfz_CvwDeA" name="Property9"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_NRP18IOQEeivtfz_CvwDeA" name="Property10"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_OGn-wIOQEeivtfz_CvwDeA" name="Property11"/>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_Oui6YIOQEeivtfz_CvwDeA" name="Property12"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_CISkgIOQEeivtfz_CvwDeA" name="vlInstanceId" type="_AuYtcDkBEeiWMf5FLWfdLA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_DYK4AIOQEeivtfz_CvwDeA" name="vlName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ECr0oIOQEeivtfz_CvwDeA" name="vlNameAlt">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Fpc-IIOQEeivtfz_CvwDeA" name="vlType">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_KS51gIOQEeivtfz_CvwDeA" name="vlRole">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_LMkBYIOQEeivtfz_CvwDeA" name="vlFunction">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_LuAhkIOQEeivtfz_CvwDeA" name="vlBandwidth">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NRP18IOQEeivtfz_CvwDeA" name="provStatus">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_OGn-wIOQEeivtfz_CvwDeA" name="adminStatus">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_Oui6YIOQEeivtfz_CvwDeA" name="connectivityType"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_fvq58IUNEeiRGZJrXkgR0w" name="minBitRateRequirements">
+          <type xmi:type="uml:DataType" href="Vnf.uml#_LsX6UDgXEeiOYfGHew0BGg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_lXNxQIUNEeiRGZJrXkgR0w" name="maxBitRateRequirements">
+          <type xmi:type="uml:DataType" href="Vnf.uml#_LsX6UDgXEeiOYfGHew0BGg"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_mgbcEIUNEeiRGZJrXkgR0w" name="dhcpEnabled">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_H6dtcIUPEeiRGZJrXkgR0w" name="vlanTransparent">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_IZdWkIUPEeiRGZJrXkgR0w" name="vlTrunkModeEnabled">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_I4c_sIUPEeiRGZJrXkgR0w" name="vlanIdOuter"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_JZPYkIUPEeiRGZJrXkgR0w" name="vlanIdInner"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_il0cAES0EeiVGPeZpaYNtQ" name="LinkPort" isAbstract="true">
         <ownedComment xmi:type="uml:Comment" xmi:id="_nXXfcES0EeiVGPeZpaYNtQ" annotatedElement="_il0cAES0EeiVGPeZpaYNtQ">
@@ -80,6 +113,49 @@ Note: the description of this class are different in ETSI GS NFV IFA 011 and ETS
         <ownedComment xmi:type="uml:Comment" xmi:id="_Bp-3oES1EeiVGPeZpaYNtQ" annotatedElement="_8naVoES0EeiVGPeZpaYNtQ">
           <body>Parent for all connection point classes.</body>
         </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_gQaSsIUREeiRGZJrXkgR0w" name="cpId" type="_AuYtcDkBEeiWMf5FLWfdLA"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_g3C04IUREeiRGZJrXkgR0w" name="cpName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_haSE0IUREeiRGZJrXkgR0w" name="cpNameAlt">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_h5ESkIUREeiRGZJrXkgR0w" name="cpType">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_idmjAIUREeiRGZJrXkgR0w" name="cpRole">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_i5kGQIUREeiRGZJrXkgR0w" name="cpFunction">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_jazyIIUREeiRGZJrXkgR0w" name="cpDescription">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_j7onQIUREeiRGZJrXkgR0w" name="cpBandwidth">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_ljD4EIUREeiRGZJrXkgR0w" name="provStatus">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_l-B80IUREeiRGZJrXkgR0w" name="adminsStatus">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_mYlK0IUREeiRGZJrXkgR0w" name="protocol">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_mw0rsIUREeiRGZJrXkgR0w" name="trunkMode">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_nJ1BkIUREeiRGZJrXkgR0w" name="addresstype">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_n41coIUREeiRGZJrXkgR0w" name="L2addressData">
+          <type xmi:type="uml:DataType" href="Vnf.uml#_X9TdUDdPEeiIfPeSAqyGdQ"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_fFI88IUSEeiRGZJrXkgR0w" name="L3addressData">
+          <type xmi:type="uml:DataType" href="Vnf.uml#_4oResDdPEeiIfPeSAqyGdQ"/>
+        </ownedAttribute>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_QVhWcDOHEei5Af8DcjrhIQ" name="Associations">
@@ -884,4 +960,48 @@ NOTE:	The present document does not specify the means to declare different bitra
   <Onap_Profile:OnapModelLifecycle xmi:id="_OGol0YOQEeivtfz_CvwDeA" base_Property="_OGn-wIOQEeivtfz_CvwDeA"/>
   <OpenModel_Profile:OpenModelAttribute xmi:id="_Oui6YYOQEeivtfz_CvwDeA" base_StructuralFeature="_Oui6YIOQEeivtfz_CvwDeA"/>
   <Onap_Profile:OnapModelLifecycle xmi:id="_OujhcIOQEeivtfz_CvwDeA" base_Property="_Oui6YIOQEeivtfz_CvwDeA"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_fvsIEIUNEeiRGZJrXkgR0w" base_StructuralFeature="_fvq58IUNEeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_fvt9QIUNEeiRGZJrXkgR0w" base_Property="_fvq58IUNEeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_lXOYUIUNEeiRGZJrXkgR0w" base_StructuralFeature="_lXNxQIUNEeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_lXO_YIUNEeiRGZJrXkgR0w" base_Property="_lXNxQIUNEeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_mgbcEYUNEeiRGZJrXkgR0w" base_StructuralFeature="_mgbcEIUNEeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_mgcDIIUNEeiRGZJrXkgR0w" base_Property="_mgbcEIUNEeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_H6eUgIUPEeiRGZJrXkgR0w" base_StructuralFeature="_H6dtcIUPEeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_H6e7kIUPEeiRGZJrXkgR0w" base_Property="_H6dtcIUPEeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_IZd9oIUPEeiRGZJrXkgR0w" base_StructuralFeature="_IZdWkIUPEeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_IZeksIUPEeiRGZJrXkgR0w" base_Property="_IZdWkIUPEeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_I4dmwIUPEeiRGZJrXkgR0w" base_StructuralFeature="_I4c_sIUPEeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_I4dmwYUPEeiRGZJrXkgR0w" base_Property="_I4c_sIUPEeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_JZP_oIUPEeiRGZJrXkgR0w" base_StructuralFeature="_JZPYkIUPEeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_JZP_oYUPEeiRGZJrXkgR0w" base_Property="_JZPYkIUPEeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_gQaSsYUREeiRGZJrXkgR0w" base_StructuralFeature="_gQaSsIUREeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_gQa5wIUREeiRGZJrXkgR0w" base_Property="_gQaSsIUREeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_g3C04YUREeiRGZJrXkgR0w" base_StructuralFeature="_g3C04IUREeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_g3Db8IUREeiRGZJrXkgR0w" base_Property="_g3C04IUREeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_haSE0YUREeiRGZJrXkgR0w" base_StructuralFeature="_haSE0IUREeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_haSE0oUREeiRGZJrXkgR0w" base_Property="_haSE0IUREeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_h5E5oIUREeiRGZJrXkgR0w" base_StructuralFeature="_h5ESkIUREeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_h5E5oYUREeiRGZJrXkgR0w" base_Property="_h5ESkIUREeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_idmjAYUREeiRGZJrXkgR0w" base_StructuralFeature="_idmjAIUREeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_idmjAoUREeiRGZJrXkgR0w" base_Property="_idmjAIUREeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_i5ktUIUREeiRGZJrXkgR0w" base_StructuralFeature="_i5kGQIUREeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_i5ktUYUREeiRGZJrXkgR0w" base_Property="_i5kGQIUREeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_jazyIYUREeiRGZJrXkgR0w" base_StructuralFeature="_jazyIIUREeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_jazyIoUREeiRGZJrXkgR0w" base_Property="_jazyIIUREeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_j7onQYUREeiRGZJrXkgR0w" base_StructuralFeature="_j7onQIUREeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_j7onQoUREeiRGZJrXkgR0w" base_Property="_j7onQIUREeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_ljD4EYUREeiRGZJrXkgR0w" base_StructuralFeature="_ljD4EIUREeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_ljEfIIUREeiRGZJrXkgR0w" base_Property="_ljD4EIUREeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_l-B80YUREeiRGZJrXkgR0w" base_StructuralFeature="_l-B80IUREeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_l-B80oUREeiRGZJrXkgR0w" base_Property="_l-B80IUREeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_mYlK0YUREeiRGZJrXkgR0w" base_StructuralFeature="_mYlK0IUREeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_mYlK0oUREeiRGZJrXkgR0w" base_Property="_mYlK0IUREeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_mw0rsYUREeiRGZJrXkgR0w" base_StructuralFeature="_mw0rsIUREeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_mw1SwIUREeiRGZJrXkgR0w" base_Property="_mw0rsIUREeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_nJ1ooIUREeiRGZJrXkgR0w" base_StructuralFeature="_nJ1BkIUREeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_nJ1ooYUREeiRGZJrXkgR0w" base_Property="_nJ1BkIUREeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_n42DsIUREeiRGZJrXkgR0w" base_StructuralFeature="_n41coIUREeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_n42DsYUREeiRGZJrXkgR0w" base_Property="_n41coIUREeiRGZJrXkgR0w"/>
+  <OpenModel_Profile:OpenModelAttribute xmi:id="_fFI88YUSEeiRGZJrXkgR0w" base_StructuralFeature="_fFI88IUSEeiRGZJrXkgR0w"/>
+  <Onap_Profile:OnapModelLifecycle xmi:id="_fFJkAIUSEeiRGZJrXkgR0w" base_Property="_fFI88IUSEeiRGZJrXkgR0w"/>
 </xmi:XMI>

@@ -290,7 +290,7 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PmVp8n7uEeifJIHxnlj6Cg"/>
       </children>
       <element xmi:type="uml:Class" href="Common.uml#_PmIOkH7uEeifJIHxnlj6Cg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PmNHEX7uEeifJIHxnlj6Cg" x="600" y="100"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PmNHEX7uEeifJIHxnlj6Cg" x="580" y="100"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_PmWRDH7uEeifJIHxnlj6Cg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_PmWRDX7uEeifJIHxnlj6Cg"/>
